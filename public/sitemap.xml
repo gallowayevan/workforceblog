@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+		<url>
+			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu/about</loc>
+			<lastmod>2018-06-14</lastmod>
+		</url>
+		
+		<url>
+			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu/help</loc>
+			<lastmod>2018-06-14</lastmod>
+		</url>
+		
+		<url>
+			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu/supply</loc>
+			<lastmod>2018-06-14</lastmod>
+		</url>
+		
+</urlset>

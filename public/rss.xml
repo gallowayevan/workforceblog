@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+	<title>North Carolina Health Workforce</title>
+	<link>https://nchealthworkforce.unc.edu</link>
+	<description>Charts and data from the Program on Health Workforce Research and Policy at the Sheps Center for Health Services Research.</description>
+	<image>
+		<url>https://nchealthworkforce.unc.edu/images/ShepsLogo_black_h.png</url>
+		<title>Program on Health Workforce Research and Policy at the Sheps Center for Health Services Research</title>
+		<link>https://nchealthworkforce.unc.edu</link>
+	</image>
+	
+		<item>
+			<title>North Carolina Health Professional Supply Data</title>
+			
+			<link>https://nchealthworkforce.unc.edu/supply</link>
+			<pubDate>Thu, 14 Jun 2018 00:00:00 GMT</pubDate>
+		</item>
+		
+		<item>
+			<title>Help</title>
+			
+			<link>https://nchealthworkforce.unc.edu/help</link>
+			<pubDate>Thu, 14 Jun 2018 00:00:00 GMT</pubDate>
+		</item>
+		
+		<item>
+			<title>About North Carolina Health Workforce</title>
+			
+			<link>https://nchealthworkforce.unc.edu/about</link>
+			<pubDate>Thu, 14 Jun 2018 00:00:00 GMT</pubDate>
+		</item>
+		
+</channel>
+</rss>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+ <title>NC Health Workforce - Help</title>
+  <meta name="description" content="North Carolina Health Professions Data System">
+  <meta name="author" content="Sheps Center">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- <link rel="stylesheet" href="css/hpds.css" type="text/css"> -->
+  <link rel="stylesheet" href="../css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="../css/skeleton.css" type="text/css">
+  <link rel="stylesheet" href="../css/main.css" type="text/css">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container" id="mainDiv">
+      <section class="header">
+      <h2 class="title"><span class="carolina-blue">North Carolina</span> <br>Health Professions Data System</h2>
+      
+    </section>
+  <hr>
+ <ul class="topnav" id="myTopnav">
+  <li><a href="/">Home</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="http://www.shepscenter.unc.edu/programs-projects/workforce/data-publications-resources/">Publications/Data</a></li>
+    <li><a href="/help">Help</a></li>
+    <!-- <li><a href="/hpdsdata">Data</a></li> -->
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="navbarRespond()">&#9776;</a>
+  </li>
+</ul>
+  <hr>
+  <br>
+
+  <div class="row u-full-width">
+  <h3>Help</h3>
+  <p>Click this button to return to the home page and load the introductory tutorial. <a href="/home" id="tutorial" class="button">Tutorial</a></p>
+  <p>Email <a href="mailto:hpds_online@unc.edu">hpds_online@unc.edu</a> with questions, error reports, or suggestions.</p>
+  </div><br>    </div>
+
+<script>
+var helpButton = document.getElementById('tutorial');
+helpButton.addEventListener("click", function(){document.cookie = "hpds-intro-cookie=run-intro; expires=-1; path=/";});
+
+</script>
+
+<!-- <script type="text/javascript" src="js/hpds.js"></script> -->
+  <!-- <div id="app"></div>  -->
+
+  <!-- <div class="row">
+    
+
+<div class="footer u-full-width"><hr>
+<p class="footer-text"></p></div></div> -->
+
+<!-- <div class="row"><div class="u-full-width sharing">
+<div><a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out this new data visualization of the health workforce in North Carolina." data-url="https://nchealthworkforce.sirs.unc.edu/" data-via="UNC_PHWRP" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+    <div> <div class="fb-share-button" data-href="https://nchealthworkforce.sirs.unc.edu/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnchealthworkforce.sirs.unc.edu%2F&amp;src=sdkpreparse">Share</a></div></div> -->
+<!-- <div class="logo"><object id="unc-logo" type="image/svg+xml" data="UNC_shepsBLACK.svg">
+          Sheps Center
+        </object></div> -->
+
+        </div>
+
+          </div>
+  </div>
+
+<script>
+  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function navbarRespond() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</body>
+</html>
