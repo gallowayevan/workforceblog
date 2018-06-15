@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	${d.filter(post => post.draft != 'true').map(post => 
+		`
+		<url>
+			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu${post.permalink}</loc>
+			<lastmod>${post.date}</lastmod>
+		</url>
+		`
+	).join('')}
+</urlset>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>North Carolina Health Professions Data System</title>
+  <meta name="description" content="North Carolina Health Professions Data System">
+  <meta name="author" content="Sheps Center">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- <link rel="stylesheet" href="css/hpds.css" type="text/css"> -->
+  <link rel="stylesheet" href="css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="css/skeleton.css" type="text/css">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="stylesheet" href="css/cards.css" type="text/css">
+
+
+</head>
+
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container" id="mainDiv">
+    <section class="header">
+      <h2 class="title">
+        <span class="carolina-blue">North Carolina</span>
+        <br>Health Professions Data System</h2>
+
+    </section>
+    <hr>
+    <ul class="topnav" id="myTopnav">
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li>
+        <a href="/about">About</a>
+      </li>
+      <li>
+        <a href="http://www.shepscenter.unc.edu/programs-projects/workforce/data-publications-resources/">Publications/Data</a>
+      </li>
+      <li>
+        <a href="/help">Help</a>
+      </li>
+      <!-- <li><a href="/hpdsdata">Data</a></li> -->
+      <li class="icon">
+        <a href="javascript:void(0);" onclick="navbarRespond()">&#9776;</a>
+      </li>
+    </ul>
+    <hr>
+    <br>
+    <h5 style="text-align: center">Explore and download health professions supply data.</h5>
+    <div class="row">
+      <!-- <div class="two columns">
+     </div> -->
+      <div class="thumb-wrapper" style="margin-left: 10%; margin-right: 10%;">
+        <a aria-label="Get health professions supply data!" href="/supply">
+          <div style="background-image: url('images/posts/supply.png'); padding-top: 65%; background-size: cover;"></div>
+        </a>
+        <!-- <img src="images/posts/supply.png"> -->
+      </div>
+    </div>
+    <div class="row">
+      <h5 style="text-align: center; margin-top: 2rem;">Or check out what's on our blog.</h5>
+    </div>
+
+    <div class="row">
+      <div class="thumb-wrapper one-third column">
+        <a aria-label="Docflows" href="/">
+          <div style="padding-top: 62.5%; background-image: url('images/posts/docflows.png'); background-size: cover;"></div>
+        </a>
+        <div class="thumb-title-wrapper">
+          <a class="thumb-title-link" href="/">
+            <div title="Docflows" class="thumb-title">Where are North Carolina residents going? Find out with the DocFlows model.</div>
+          </a>
+        </div>
+      </div>
+      <div class="thumb-wrapper one-third column">
+          <a aria-label="Rural Dentists Skew Older" href="/">
+            <div style="padding-top: 62.5%; background-image: url('images/posts/density_plot_dentists.png'); background-size: cover;"></div>
+          </a>
+          <div class="thumb-title-wrapper">
+            <a class="thumb-title-link" href="/">
+              <div title="Rural Dentists Skew Older" class="thumb-title">Dentist in rural counties skew older than those in more urban counties.</div>
+            </a>
+          </div>
+        </div>
+        <div class="thumb-wrapper one-third column">
+            <a aria-label="Counties by percent physicians 65 or older" href="/">
+              <div style="padding-top: 62.5%; background-image: url('images/posts/md_65_older_with_nonmetro_and_zero.png'); background-size: cover;"></div>
+            </a>
+            <div class="thumb-title-wrapper">
+              <a class="thumb-title-link" href="/">
+                <div title="Counties by percent physicians 65 or older" class="thumb-title">Which counties have a higher percentage of physicians who are 65 or older?</div>
+              </a>
+            </div>
+          </div>
+    </div>
+    <div class="row  footer">        
+      <hr>
+<div class="two-thirds column logo">
+<img src="images/ShepsLogo_blue_h.png" />
+  </div>
+  </div>
+  </div>
+
+  <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function navbarRespond() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+</body>
+
+</html>

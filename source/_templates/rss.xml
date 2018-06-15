@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+	<title>North Carolina Health Workforce</title>
+	<link>https://nchealthworkforce.unc.edu</link>
+	<description>Charts and data from the Program on Health Workforce Research and Policy at the Sheps Center for Health Services Research.</description>
+	<image>
+		<url>https://nchealthworkforce.unc.edu/images/ShepsLogo_black_h.png</url>
+		<title>Program on Health Workforce Research and Policy at the Sheps Center for Health Services Research</title>
+		<link>https://nchealthworkforce.unc.edu</link>
+	</image>
+	${d.filter(post => post.draft != 'true').reverse().map(post => 
+		`
+		<item>
+			<title>${post.title}</title>
+			${post.thumbnail ? `
+				<description>
+					<![CDATA[
+						<a href="https://nchealthworkforce.unc.edu${post.permalink}">
+							<img src="${post.shareimg}"/>
+						</a>
+					]]>
+				</description>
+			` : ''}
+			<link>https://nchealthworkforce.unc.edu${post.permalink}</link>
+			<pubDate>${(new Date(post.date)).toUTCString()}</pubDate>
+		</item>
+		`
+	).join('')}
+</channel>
+</rss>
