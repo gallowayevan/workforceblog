@@ -3,40 +3,26 @@
 
 <head>
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>North Carolina Health Professions Data System</title>
+  <title>NC Health Workforce</title>
   <meta name="description" content="North Carolina Health Professions Data System">
   <meta name="author" content="Sheps Center">
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-  <!-- <link rel="stylesheet" href="css/hpds.css" type="text/css"> -->
-  <link rel="stylesheet" href="css/normalize.css" type="text/css">
-  <link rel="stylesheet" href="css/skeleton.css" type="text/css">
-  <link rel="stylesheet" href="css/main.css" type="text/css">
-  <link rel="stylesheet" href="css/cards.css" type="text/css">
-
+  <link rel="stylesheet" href="../css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="../css/skeleton-no-grid.css" type="text/css">
+  <link rel="stylesheet" href="../css/main.css" type="text/css">
 
 </head>
 
 <body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container" id="mainDiv">
-    <section class="header">
-      <h2 class="title">
-        <span class="carolina-blue">North Carolina</span>
-        <br>Health Professions Data System</h2>
+  <div class="header">
+    <h2 class="title">
+      <span class="carolina-blue">North Carolina</span>
+      <br>Health Professions Data System</h2>
 
-    </section>
-    <hr>
     <ul class="topnav" id="myTopnav">
       <li>
         <a href="/">Home</a>
@@ -47,33 +33,30 @@
       <li>
         <a href="http://www.shepscenter.unc.edu/programs-projects/workforce/data-publications-resources/">Publications/Data</a>
       </li>
-      <li>
+      <!-- <li>
         <a href="/help">Help</a>
-      </li>
-      <!-- <li><a href="/hpdsdata">Data</a></li> -->
+      </li> -->
       <li class="icon">
         <a href="javascript:void(0);" onclick="navbarRespond()">&#9776;</a>
       </li>
     </ul>
-    <hr>
-    <br>
+  </div>
+
+  <div class="content">
+
     <h5 style="text-align: center">Explore and download health professions supply data.</h5>
-    <div class="row">
-      <!-- <div class="two columns">
-     </div> -->
-      <div class="thumb-wrapper" style="margin-left: 10%; margin-right: 10%;">
-        <a aria-label="Get health professions supply data!" href="/supply">
-          <div style="background-image: url('images/posts/supply.png'); padding-top: 65%; background-size: cover;"></div>
-        </a>
-        <!-- <img src="images/posts/supply.png"> -->
-      </div>
-    </div>
-    <div class="row">
-      <h5 style="text-align: center; margin-top: 2rem;">Or check out what's on our blog.</h5>
+    <div class="thumb-wrapper" style="margin-left: 10%; margin-right: 10%;">
+      <a aria-label="Get health professions supply data!" href="/supply">
+        <div style="background-image: url('images/posts/supply.png'); padding-top: 65%; background-size: cover;"></div>
+      </a>
     </div>
 
-    <div class="row">
-      <div class="thumb-wrapper one-third column">
+
+    <h5 style="text-align: center; margin-top: 2rem;">Or check out what's on our blog.</h5>
+
+
+    <div class="thumbnails">
+      <div class="thumb-wrapper thumb-wrapper-small">
         <a aria-label="Docflows" href="/">
           <div style="padding-top: 62.5%; background-image: url('images/posts/docflows.png'); background-size: cover;"></div>
         </a>
@@ -83,33 +66,65 @@
           </a>
         </div>
       </div>
-      <div class="thumb-wrapper one-third column">
-          <a aria-label="Rural Dentists Skew Older" href="/">
-            <div style="padding-top: 62.5%; background-image: url('images/posts/density_plot_dentists.png'); background-size: cover;"></div>
+      <div class="thumb-wrapper thumb-wrapper-small">
+        <a aria-label="Rural Dentists Skew Older" href="/">
+          <div style="padding-top: 62.5%; background-image: url('images/posts/density_plot_dentists.png'); background-size: cover;"></div>
+        </a>
+        <div class="thumb-title-wrapper">
+          <a class="thumb-title-link" href="/">
+            <div title="Rural Dentists Skew Older" class="thumb-title">Dentist in rural counties skew older than those in more urban counties.</div>
           </a>
-          <div class="thumb-title-wrapper">
-            <a class="thumb-title-link" href="/">
-              <div title="Rural Dentists Skew Older" class="thumb-title">Dentist in rural counties skew older than those in more urban counties.</div>
-            </a>
-          </div>
         </div>
-        <div class="thumb-wrapper one-third column">
-            <a aria-label="Counties by percent physicians 65 or older" href="/">
-              <div style="padding-top: 62.5%; background-image: url('images/posts/md_65_older_with_nonmetro_and_zero.png'); background-size: cover;"></div>
-            </a>
-            <div class="thumb-title-wrapper">
-              <a class="thumb-title-link" href="/">
-                <div title="Counties by percent physicians 65 or older" class="thumb-title">Which counties have a higher percentage of physicians who are 65 or older?</div>
-              </a>
-            </div>
-          </div>
+      </div>
+      <div class="thumb-wrapper thumb-wrapper-small">
+        <a aria-label="Counties by percent physicians 65 or older" href="/">
+          <div style="padding-top: 62.5%; background-image: url('images/posts/md_65_older_with_nonmetro_and_zero.png'); background-size: cover;"></div>
+        </a>
+        <div class="thumb-title-wrapper">
+          <a class="thumb-title-link" href="/">
+            <div title="Counties by percent physicians 65 or older" class="thumb-title">Which counties have a higher percentage of physicians who are 65 or older?</div>
+          </a>
+        </div>
+      </div>
     </div>
-    <div class="row  footer">        
-      <hr>
-<div class="two-thirds column logo">
-<img src="images/ShepsLogo_blue_h.png" />
+
   </div>
-  </div>
+
+  <div class="footer">
+    <div class="logo">
+      <img src="images/ShepsLogo_blackblue_h.png" />
+    </div>
+    <div class="contact">
+      <!-- Email -->
+      <div class="sharing">
+        Email us: <a href="mailto:hpds_online@unc.edu?subject=Question%20about%20the%20North%20Carolina%20Health%20Workforce%20website"
+          target="_self" aria-label="Email Us.">
+          hpds_online@unc.edu
+        </a>
+      </div>
+      <!-- Twitter -->
+      <div class="sharing">
+        <a href="https://twitter.com/intent/tweet/?text=Check%20out%20the%20North%20Carolina%20Health%20Workforce%20website.&amp;url=https%3A%2F%2Fgo.unc.edu%2Fhpds"
+          target="_blank" aria-label="Share on Twitter">
+          Share on Twitter
+        </a>
+      </div>
+
+      <!-- Facebook -->
+      <div class="sharing">
+        <a href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgo.unc.edu%2Fhpds" target="_blank" aria-label="Share on Facebook">
+          Share on Facebook
+        </a>
+      </div>
+      <!-- LinkedIn -->
+      <div class="sharing">
+        <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fgo.unc.edu%2Fhpds&amp;title=Check%20out%20the%20North%20Carolina%20Health%20Workforce%20website.&amp;summary=Check%20out%20the%20North%20Carolina%20Health%20Workforce%20website.&amp;source=https%3A%2F%2Fgo.unc.edu%2Fhpds"
+          target="_blank" aria-label="Share on LinkedIn">
+          Share on LinkedIn
+        </a>
+      </div>
+
+    </div>
   </div>
 
   <script>

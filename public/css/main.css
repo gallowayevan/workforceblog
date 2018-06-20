@@ -1,31 +1,72 @@
-  hr {
-  margin-top: 0;
-  margin-bottom: 0;
-  border-width: 0;
-  border-top: 1px solid #E1E1E1; 
-}
-
-.footer {
-  margin: 20px 0px 20px 0px;
-  /* background-color: #4B9CD3; */
-  /* background-color: #E1E1E1; */
-}
-
-
 .carolina-blue {
 	color: #2376A1;
 } 
-
-.logo {
-  margin: 20px 0px 20px 50px;
-}
 
 img {
   max-width: 100%;
   height: auto;
 }
 
-/*physician AOP table formatting*/
+/*Main Layout
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; 
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  }
+
+  .content {
+    flex:1;
+  }
+
+  /*Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0px 20px 0px;
+  border-top: 1px solid #E1E1E1; 
+  padding-top: 1em;
+}
+
+.logo {
+  flex-basis: 550px;
+  margin-bottom: 1em;
+  margin-right: 10px;
+}
+
+.contact {
+  margin-left: auto;
+}
+
+.sharing {
+  text-align: right;
+}
+
+@media (max-width: 835px) {
+  
+  .sharing {
+    text-align: center;
+  }
+
+  .contact {
+    /* flex-basis: 275px; */
+    margin-left: inherit;
+  }
+
+}
+
+/*Physician AOP Table
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .physician-group-row {
   background-color:#31a354;
 }
@@ -39,21 +80,73 @@ img {
 
 }
 
+/*Thumbnail Cards
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.thumb-wrapper {
+  border-radius: .25rem;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .1);
+  position: relative;
+  transition: all .15s ease;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.thumb-wrapper-small {
+  flex-basis: 260px;
+  flex-grow: 1;
+  margin: 0.6em;
+}
+
+.thumb-wrapper:hover {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .2);
+  transform: translateY(-1px);
+}
+
+.thumb-title-wrapper {
+  /* overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; */
+  border-color: #e2e5e9;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+.thumb-title-link {
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  color: #1b1e23;
+  display: flex;
+}
+.thumb-title{
+  margin-right: .5rem;
+  padding-top: .5rem;
+  padding-bottom: .25rem;
+}
+
 
 /* Navigation Bar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
- /* Remove margins and padding from the list, and add a black background color */
+ /* Remove margins and padding from the list, and add a white background color */
 ul.topnav {
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #ffffff;
-}
+    border-top: 1px solid #E1E1E1; 
+    border-bottom: 1px solid #E1E1E1; 
+  }
 
 /* Float the list items side by side */
-ul.topnav li {float: left;}
+ul.topnav li {float: left; margin-bottom: 0;}
 
 /* Style the links inside the list items */
 ul.topnav li a {
@@ -81,9 +174,6 @@ ul.topnav li.icon {display: none;}
     display: inline-block;
   }
 
-  .barChartGroup {
-    border-left: 1px solid #fff;
-  }
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */

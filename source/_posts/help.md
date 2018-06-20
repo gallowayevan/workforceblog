@@ -7,7 +7,7 @@ permalink: /help
 
 <div class="row u-full-width">
   <h3>Help</h3>
-  <p>Click this button to return to the home page and load the introductory tutorial. <a href="/home" id="tutorial" class="button">Tutorial</a></p>
+  <p>Click this button to return to the home page and load the introductory tutorial. <a href="/" id="tutorial" class="button">Tutorial</a></p>
   <p>Email hpds_online@unc.edu with questions, error reports, or suggestions.</p>
   </div>  
 	</div>
