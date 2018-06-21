@@ -7,15 +7,41 @@ img {
   height: auto;
 }
 
+/*Details and Summary
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.summary-header {
+  font-size: 1.4em;
+}
+
+details > ul {
+  margin-left: 2em;
+}
+
+.many-details {
+  font-size: 1em;
+}
+
+.many-details > details > summary{
+  font-size: 1em;
+  font-weight: 600;
+}
+
+summary:focus {
+  background: #cfe8f4;
+  outline: none !important;
+}
+
 /*Main Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body {
-  position: relative;
+  /* position: relative;
   width: 100%;
+  box-sizing: border-box;  */
+
+  padding: 0 20px;
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box; 
 
   display: flex;
   min-height: 100vh;
