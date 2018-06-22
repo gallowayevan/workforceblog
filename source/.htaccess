@@ -1,2 +1,2 @@
-Header add Access-Control-Allow-Origin: https://beta.observablehq.com
+Header add Access-Control-Allow-Origin: https://gallowayevan.static.observableusercontent.com
 Header add Access-Control-Allow-Methods: GET
