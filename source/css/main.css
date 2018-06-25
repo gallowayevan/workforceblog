@@ -32,6 +32,10 @@ summary:focus {
   outline: none !important;
 }
 
+.many-details > details > ul > li{
+  margin-bottom: 0;
+}
+
 /*Main Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body {
