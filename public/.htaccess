@@ -1,4 +1,4 @@
-<IfModule mod_headers.c>
-   SetEnvIfNoCase Origin "https?://(www\.)?(nchealthworkforce\.unc\.edu|gallowayevan\.static\.observableusercontent\.com|hpds-dept-healthworkforce\.cloudapps\.unc\.edu)(:\d+)?$" ACAO=$0
-   Header set Access-Control-Allow-Origin %{ACAO}e env=ACAO
-</IfModule>
+<FilesMatch "\.(csv)$">
+    Header add Access-Control-Allow-Origin: *
+    Header add Access-Control-Allow-Methods: GET
+</FilesMatch>
