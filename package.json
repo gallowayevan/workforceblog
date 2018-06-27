@@ -8,6 +8,6 @@
   },
   "scripts": {
     "start": "node ./index.js --watch & cd public/ && hot-server",
-    "publish": "node ./index.js && rsync -a --omit-dir-times --no-perms public/ demo@roadtolarissa.com:../../usr/share/nginx/html/"
+    "publish": "node ./build.js"
   }
 }
