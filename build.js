@@ -43,7 +43,8 @@ function parsePost(path){
   return post
 }
 
-const searchIndex = JSON.stringify(posts.map(ensureDescription));
+const postsForIndexing = posts.map(d=>Object.assign({}, d));
+const searchIndex = JSON.stringify(postsForIndexing.map(ensureDescription));
 fs.writeFileSync(public + '/searchIndex.json', searchIndex);
 
 function ensureDescription(post){
