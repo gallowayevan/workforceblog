@@ -106,6 +106,13 @@ summary:focus {
     background-color: #007FAE;
    }
 
+/*Search
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.search-div {
+  text-align:center;
+}
+
 /*Main Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body {

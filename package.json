@@ -1,5 +1,6 @@
 {
   "name": "workforce-blog",
+  "version": "0.1.0",
   "dependencies": {
     "chokidar": "^1.7.0",
     "highlight.js": "^9.12.0",
@@ -8,6 +9,6 @@
   },
   "scripts": {
     "start": "node ./index.js --watch & cd public/ && hot-server",
-    "publish": "node ./build.js"
+    "build": "node ./build.js"
   }
 }
