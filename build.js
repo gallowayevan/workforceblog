@@ -33,6 +33,8 @@ function parsePost(path){
   var [top, body] = fs.readFileSync(path, 'utf8')
     .replace('---\n', '') //needed to add carriage return \r
     .split('\n---\n');
+
+    console.log(top, body)
     
   var post = {html: marked(body)}
   top.split('\n').forEach(line => {
