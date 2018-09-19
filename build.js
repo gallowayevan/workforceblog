@@ -30,9 +30,11 @@ fs.writeFileSync(public + '/rss.xml',  templates['rss.xml'](posts))
 fs.writeFileSync(public + '/sitemap.xml', templates['sitemap.xml'](posts))
 
 function parsePost(path){
-  var [top, body] = fs.readFileSync(path, 'utf8')
-    .replace('---\n', '') //needed to add carriage return \r
-    .split('\n---\n');
+  // var [top, body] = fs.readFileSync(path, 'utf8')
+  //   .replace('---\n', '') //needed to add carriage return \r
+  //   .split('\n---\n');
+  var [toss, top, body] = fs.readFileSync(path, 'utf8')
+  .split('---');
 
     console.log(top, body)
     
