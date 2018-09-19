@@ -6,6 +6,6 @@ permalink: test-test
 ---
 This is a test.
 
-![](/images/posts/density_plot_dentists.png)
+![null](/images/posts/density_plot_dentists.png)
 
-![](/images/posts/rural_map.png)
+![null](/images/posts/rural_map.png)
