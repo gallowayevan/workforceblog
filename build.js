@@ -31,8 +31,8 @@ fs.writeFileSync(public + '/sitemap.xml', templates['sitemap.xml'](posts))
 
 function parsePost(path){
   var [top, body] = fs.readFileSync(path, 'utf8')
-    .replace('---\r\n', '') //needed to add carriage return \r
-    .split('\r\n---\r\n');
+    .replace('---\n', '') //needed to add carriage return \r
+    .split('\n---\n');
     
   var post = {html: marked(body)}
   top.split('\n').forEach(line => {
