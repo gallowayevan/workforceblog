@@ -212,9 +212,21 @@ body {
 }
 
 .thumb-wrapper-small {
-  flex-basis: 260px;
-  flex-grow: 1;
+  flex-basis: 275px;
   margin: 0.6em;
+}
+
+.thumb-main {
+  margin: auto;
+  width: 50%;
+}
+
+@media (max-width: 715px) {
+  .thumb-main {
+    margin: auto;
+    width: 80%;
+  }
+
 }
 
 .thumb-wrapper:hover {
@@ -245,6 +257,13 @@ body {
   padding-bottom: .25rem;
 }
 
+
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header-logo {
+  padding: 2% 20% 2% 20%;
+}
 
 /* Navigation Bar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
