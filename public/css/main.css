@@ -262,7 +262,7 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .header-logo {
-  padding: 2% 20% 2% 20%;
+  padding: 14px 16px 14px 16px;
 }
 
 /* Navigation Bar
@@ -273,9 +273,10 @@ ul.topnav {
     list-style-type: none;
     padding: 0;
     overflow: hidden;
-    background-color: #ffffff;
-    border-top: 1px solid #E1E1E1; 
-    border-bottom: 1px solid #E1E1E1; 
+    /* background-color: #ffffff; */
+    /* border-top: 1px solid #E1E1E1;  */
+    /* border-bottom: 1px solid #E1E1E1;  */
+    float: right;
   }
 
 /* Float the list items side by side */
@@ -301,7 +302,7 @@ ul.topnav li.icon {display: none;}
 
  /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
 @media screen and (max-width:680px) {
-  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li {display: none;}
   ul.topnav li.icon {
     float: right;
     display: inline-block;
