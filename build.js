@@ -35,8 +35,6 @@ function parsePost(path){
   //   .split('\n---\n');
   var [toss, top, body] = fs.readFileSync(path, 'utf8')
   .split('---');
-
-    console.log(top, body)
     
   var post = {html: marked(body)}
   top.split('\n').forEach(line => {

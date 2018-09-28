@@ -10,5 +10,5 @@
   "scripts": {
     "start": "node ./index.js --watch & cd public/ && hot-server",
     "build": "node ./build.js"
-  }
+  } 
 }
