@@ -14,5 +14,8 @@ collections:
       - {label: "Template", name: "template", widget: "hidden", default: "post.html"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Author", name: "author", width: "string"}
       - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Text Teaser", name: "textTeaser", widget: "string"}
+      - {label: "Image Teaser", name: "imageTeaser", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}

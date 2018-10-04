@@ -1,6 +1,7 @@
 ---
 template: post.html
 title: DocFlows
+author: Evan Galloway
 date: 2018-06-14
 permalink: /docflows
 ---
