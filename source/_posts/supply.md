@@ -2,7 +2,10 @@
 template: post.html
 title: North Carolina Health Professional Supply Data
 date: 2018-06-14
+author: Evan Galloway
 permalink: /supply
+teaserText: Find out more about the supply of health professionals in North Carolina.
+teaserImage: /images/posts/supply.png
 ---
 
 <div id='app'>

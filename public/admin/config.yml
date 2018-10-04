@@ -3,6 +3,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 media_folder: "source/images/posts"
 public_folder: "/images/posts"
+publish_mode: editorial_workflow
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
@@ -15,6 +16,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Author", name: "author", width: "string"}
+      - {label: "Hide from Site Search?", name: "hide", widget: "boolean", default: false}
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Text Teaser", name: "textTeaser", widget: "string"}
       - {label: "Image Teaser", name: "imageTeaser", widget: "image"}

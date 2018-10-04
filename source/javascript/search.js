@@ -1,0 +1,62 @@
+(function () {
+
+
+    const options = {
+        shouldSort: true,
+        threshold: 0.6,
+        location: 0,
+        distance: 100,
+        maxPatternLength: 32,
+        minMatchCharLength: 1,
+        keys: [
+            "title",
+            "author",
+            "desc",
+            "teaserText"
+        ]
+    };
+
+    fetch('searchIndex.json')
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (searchIndex) {
+            const fuse = new Fuse(searchIndex, options);
+
+            const searchBoxes = document.querySelectorAll('.search-box');
+            const thumbnailBox = document.querySelector('.thumbnails');
+
+            for (var i = 0; i < searchBoxes.length; i++) {
+                searchBoxes[i].addEventListener('keyup', search, false);
+            }
+
+            function search(event) {
+                const searchResults = fuse.search(event.target.value);
+                
+                const searchResultsFormatted = searchResults.map(
+                    function(d){
+                        return `<div class="thumb-wrapper thumb-wrapper-small">
+                        <a aria-label="${d.title}" href=${d.permalink}>
+                          <div style="padding-top: 62.5%; background-image: url('${d.teaserImage}'); background-size: cover;"></div>
+                        </a>
+                        <div class="thumb-title-wrapper">
+                          <a class="thumb-title-link" href="${d.permalink}">
+                            <div title="${d.title}" class="thumb-title">${d.teaserText}</div>
+                          </a>
+                        </div>
+                      </div>`
+                    }
+                ).join('');
+
+                thumbnailBox.innerHTML = searchResultsFormatted;
+
+            }
+
+
+
+
+ 
+
+        });
+
+}());

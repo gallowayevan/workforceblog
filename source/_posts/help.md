@@ -3,6 +3,7 @@ template: post.html
 title: Help
 date: 2018-06-14
 permalink: /help
+hide: true
 ---
 
 <div class="row u-full-width">
