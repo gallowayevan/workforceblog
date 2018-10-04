@@ -1,9 +1,11 @@
 ---
 template: post.html
 title: DocFlows
+date: 2018-06-14T00:00:00.000Z
 author: Evan Galloway
-date: 2018-06-14
 permalink: /docflows
+textTeaser: Checkout the docflows tool!
+imageTeaser: /images/posts/docflows.png
 ---
 
 ##### Where are North Carolina residents going? Which states contribute the most to North Carolina's physician supply?
