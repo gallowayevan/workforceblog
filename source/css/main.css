@@ -262,68 +262,70 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .header-logo {
-  padding: 14px 16px 14px 16px;
+  padding: 0px 16px;
 }
 
 /* Navigation Bar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
- /* Remove margins and padding from the list, and add a white background color */
-ul.topnav {
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    /* background-color: #ffffff; */
-    /* border-top: 1px solid #E1E1E1;  */
-    /* border-bottom: 1px solid #E1E1E1;  */
-    float: right;
-  }
 
-/* Float the list items side by side */
-ul.topnav li {float: left; margin-bottom: 0;}
-
-/* Style the links inside the list items */
-ul.topnav li a {
-    display: inline-block;
-    color:  #000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
+.Navbar {
+  display: flex;
+  padding: 16px;
+  font-family: sans-serif;
 }
 
-/* Change background color of links on hover */
-ul.topnav li a:hover {background-color: #f4f4f4;}
-
-/* Hide the list item that contains the link that should open and close the topnav on small screens */
-ul.topnav li.icon {display: none;}
-
-
- /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
-@media screen and (max-width:680px) {
-  ul.topnav li {display: none;}
-  ul.topnav li.icon {
-    float: right;
-    display: inline-block;
-  }
-
+.Navbar__Link a {
+  /* display: inline-block; */
+  padding: 10px 16px;
+  color:  #000000;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
-@media screen and (max-width:680px) {
-  ul.topnav.responsive {position: relative;}
-  ul.topnav.responsive li.icon {
+.Navbar__Items {
+  display: flex;
+}
+
+.Navbar__Items--right {
+  margin-left:auto;
+}
+
+.Navbar__Items--right.Navbar__Items a:hover {
+  background-color: #f4f4f4;
+}
+
+.Navbar__Link-toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+  }
+
+.Navbar__Items {
+    display:none;
+  }
+
+  .Navbar__Link {
+    margin:5px;
+  }
+.Navbar__Items--right {
+    margin-left:0;
+  }
+
+.Navbar__ToggleShow {
+    display: flex;
+  }
+
+.Navbar__Link-toggle {
+    align-self: flex-end;
+    display: initial;
     position: absolute;
-    right: 0;
-    top: 0;
-  }
-  ul.topnav.responsive li {
-    float: none;
-    display: inline;
-  }
-  ul.topnav.responsive li a {
-    display: block;
-    text-align: left;
-  }
+    cursor: pointer;
+   } 
 }
+
