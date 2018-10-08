@@ -8,6 +8,5 @@ permalink: dentistchangemap13_17
 textTeaser: NC added 551 new dentists between 2013 and 2017.  Where did they go?
 imageTeaser: /images/posts/dentist_change_distribution.png
 ---
-NC has moved up in the national rankings of dentists per capita, from 44th in 2013 to 37th in 2017.
-
-The majority of the dentist growth in the state has been in the few counties already well-supplied with dentists, and did not effect the supply of dentists in rural and underserved counties.
+* NC has moved up in the national rankings of dentists per capita, from 44th in 2013 to 37th in 2017.
+* The majority of the dentist growth in the state occurred in the few counties already well-supplied with dentists, while the supply of dentists relative to population in rural and underserved counties remained largely unchanged.
