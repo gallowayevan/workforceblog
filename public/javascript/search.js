@@ -19,12 +19,16 @@
 
     fetch('searchIndex.json')
         .then(function (response) {
-            const searchIndex = response.json().map(d=>(d.keywords = d.keywords.split(","), d));
-            return searchIndex;
+            return response.json();
         })
-        .then(function (searchIndex) {
+        .then(function (searchJSON) {
+            const searchIndex = searchJSON.map(function(d){
+                if(d.keywords) d.keywords = d.keywords.slice(1).split(",");
+                console.log(d.keywords)
+                return d;
+            })
             const fuse = new Fuse(searchIndex, options);
-            console.log(searchIndex)
+            
             const defaultResults = 6;
             
             const searchBoxes = document.querySelectorAll('.search-box');
