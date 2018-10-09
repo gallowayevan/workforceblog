@@ -8,13 +8,25 @@
         distance: 100,
         maxPatternLength: 32,
         minMatchCharLength: 3,
-        keys: [
-            "title",
-            "author",
-            "desc",
-            "teaserText",
-            "keywords"
-        ]
+        keys: [{
+            name: 'title',
+            weight: 0.5
+          }, {
+            name: 'author',
+            weight: 0.2
+          },
+          {
+            name: 'desc',
+            weight: 0.4
+          },
+          {
+            name: 'teaserText',
+            weight: 0.6
+          },
+          {
+            name: 'keywords',
+            weight: 0.9
+          }]
     };
 
     fetch('searchIndex.json')
@@ -24,6 +36,7 @@
         .then(function (searchJSON) {
             const searchIndex = searchJSON.map(function(d){
                 if(d.keywords) d.keywords = d.keywords.slice(1,-1).split(",").map(d=>d.trim());
+                if(d.author) d.author = d.author.slice(1,-1).split(",").map(d=>d.trim());
                 return d;
             })
             const fuse = new Fuse(searchIndex, options);
