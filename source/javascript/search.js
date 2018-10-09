@@ -23,8 +23,7 @@
         })
         .then(function (searchJSON) {
             const searchIndex = searchJSON.map(function(d){
-                if(d.keywords) d.keywords = d.keywords.slice(1).split(",");
-                console.log(d.keywords)
+                if(d.keywords) d.keywords = d.keywords.slice(1,-1).split(",").map(d=>d.trim());
                 return d;
             })
             const fuse = new Fuse(searchIndex, options);
