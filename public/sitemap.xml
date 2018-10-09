@@ -27,6 +27,12 @@
 		
 		<url>
 			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu/dentistchangemap13_17</loc>
+			<lastmod>2018-10-08T14:31:42.880Z</lastmod>
+		</url>
+		
+		<url>
+			<priority>0.5</priority>
 			<loc>https://nchealthworkforce.unc.edu/physician_age_map</loc>
 			<lastmod>2018-08-27</lastmod>
 		</url>
