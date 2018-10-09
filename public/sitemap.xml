@@ -21,6 +21,12 @@
 		
 		<url>
 			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu/docflows2</loc>
+			<lastmod>2018-10-09T17:20:29.020Z</lastmod>
+		</url>
+		
+		<url>
+			<priority>0.5</priority>
 			<loc>https://nchealthworkforce.unc.edu/help</loc>
 			<lastmod>2018-06-14</lastmod>
 		</url>
@@ -28,7 +34,7 @@
 		<url>
 			<priority>0.5</priority>
 			<loc>https://nchealthworkforce.unc.edu/dentistchangemap13_17</loc>
-			<lastmod>2018-10-08T14:31:42.880Z</lastmod>
+			<lastmod>2018-10-08</lastmod>
 		</url>
 		
 		<url>
