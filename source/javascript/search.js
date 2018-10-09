@@ -19,7 +19,7 @@
 
     fetch('searchIndex.json')
         .then(function (response) {
-            // const searchIndex = response.json().map(d=>(d.keywords = Array.from(d.keywords.substring()), d));
+            const searchIndex = response.json().map(d=>(d.keywords = d.keywords.split(","), d));
             return response.json();
         })
         .then(function (searchIndex) {

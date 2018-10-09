@@ -55,7 +55,7 @@ function ensureDescription(post){
         let cleanText = post.html.replace(regexForTagsEtc, '').replace(/\s\s+/g, ' ');
         post.desc = shorten(cleanText, 400);
     }
-
+  
     delete post.html;
     delete post.template;
 

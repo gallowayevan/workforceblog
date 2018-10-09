@@ -1,7 +1,7 @@
 ---
 template: post.html
 title: Docflows2
-date: 2018-10-09T17:20:29.020Z
+date: 2018-10-09
 author: Evan Galloway
 hide: false
 permalink: /docflows2

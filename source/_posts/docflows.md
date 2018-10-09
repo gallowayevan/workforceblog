@@ -1,18 +1,12 @@
 ---
 template: post.html
 title: DocFlows
-date: 2018-06-14T00:00:00.000Z
+date: 2018-06-14
 author: Evan Galloway
 hide: false
 permalink: /docflows
 teaserText: Where are North Carolina residents going? Find out with the DocFlows model.
 teaserImage: /images/posts/docflows.png
-keywords:
-  - physicians
-  - residents
-  - doctors
-  - training
-  - gme
 ---
 
 ##### Where are North Carolina residents going? Which states contribute the most to North Carolina's physician supply?

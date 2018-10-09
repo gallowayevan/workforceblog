@@ -1,7 +1,7 @@
 ---
 template: post.html
 title: Test
-date: 2018-09-19T16:34:59.542Z
+date: 2018-09-19
 permalink: /test-test
 author: Evan Galloway
 teaserText: Test post with rural map.
