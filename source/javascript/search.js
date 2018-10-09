@@ -7,22 +7,24 @@
         location: 0,
         distance: 100,
         maxPatternLength: 32,
-        minMatchCharLength: 2,
+        minMatchCharLength: 3,
         keys: [
             "title",
             "author",
             "desc",
-            "teaserText"
+            "teaserText",
+            "keywords"
         ]
     };
 
     fetch('searchIndex.json')
         .then(function (response) {
+            // const searchIndex = response.json().map(d=>(d.keywords = Array.from(d.keywords.substring()), d));
             return response.json();
         })
         .then(function (searchIndex) {
             const fuse = new Fuse(searchIndex, options);
-            
+            console.log(searchIndex)
             const defaultResults = 6;
             
             const searchBoxes = document.querySelectorAll('.search-box');
@@ -35,7 +37,7 @@
             }
 
             function search(event) {
-                const searchResults = event.target.value.length ? fuse.search(event.target.value) : searchIndex.slice(0,defaultResults+1);
+                const searchResults = event.target.value.length >= options.minMatchCharLength ? fuse.search(event.target.value) : searchIndex.slice(0,defaultResults+1);
                 
                 const searchResultsFormatted = searchResults.map(thumbnailTemplate).join('');
 

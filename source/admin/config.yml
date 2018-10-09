@@ -19,5 +19,5 @@ collections:
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Text Teaser", name: "teaserText", widget: "string"}
       - {label: "Image Teaser", name: "teaserImage", widget: "image"}
-      - {label: "Keywords", name: "keywords", widget: "string", required: false}
+      - {label: "Keywords (comma delimited)", name: "keywords", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
