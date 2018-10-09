@@ -20,7 +20,7 @@
     fetch('searchIndex.json')
         .then(function (response) {
             const searchIndex = response.json().map(d=>(d.keywords = d.keywords.split(","), d));
-            return response.json();
+            return searchIndex;
         })
         .then(function (searchIndex) {
             const fuse = new Fuse(searchIndex, options);

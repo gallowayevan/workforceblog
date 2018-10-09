@@ -19,8 +19,8 @@
 
     fetch('searchIndex.json')
         .then(function (response) {
-            // const searchIndex = response.json().map(d=>(d.keywords = Array.from(d.keywords.substring()), d));
-            return response.json();
+            const searchIndex = response.json().map(d=>(d.keywords = d.keywords.split(","), d));
+            return searchIndex;
         })
         .then(function (searchIndex) {
             const fuse = new Fuse(searchIndex, options);
