@@ -4,7 +4,7 @@ title: 'NC''s Dentist Workforce Has Grown, But Only in Well-Supplied Counties'
 date: 2018-10-08T14:31:42.880Z
 author: Julie Spero
 hide: false
-permalink: dentistchangemap13_17
+permalink: /dentistchangemap13_17
 textTeaser: NC added 551 new dentists between 2013 and 2017.  Where did they go?
 imageTeaser: /images/posts/dentist_change_distribution.png
 ---
