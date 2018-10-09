@@ -5,9 +5,7 @@ date: 2018-10-08T14:31:42.880Z
 author: 'Julie Spero, Evan Galloway'
 hide: false
 permalink: /dentistchangemap13_17
-teaserText: >-
-  North Carolina added 551 new dentists between 2013 and 2017. Where did they
-  go?
+teaserText: North Carolina added 551 new dentists between 2013 and 2017. Where did they go?
 teaserImage: /images/posts/dentist_change_distribution.png
 ---
 ![](/images/posts/dentist_change_distribution.png)
