@@ -18,6 +18,6 @@ collections:
       - {label: "Author", name: "author", width: "string"}
       - {label: "Hide from Site Search?", name: "hide", widget: "boolean", default: false}
       - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Text Teaser", name: "textTeaser", widget: "string"}
-      - {label: "Image Teaser", name: "imageTeaser", widget: "image"}
+      - {label: "Text Teaser", name: "teaserText", widget: "string"}
+      - {label: "Image Teaser", name: "teaserImage", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
