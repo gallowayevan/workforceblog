@@ -37,6 +37,8 @@
             const searchIndex = searchJSON.map(function(d){
                 if(d.keywords) d.keywords = d.keywords.slice(1,-1).split(",").map(d=>d.trim());
                 if(d.author) d.author = d.author.slice(1,-1).split(",").map(d=>d.trim());
+                if(d.date) d.date = new Date(d.date);
+
                 return d;
             })
             const fuse = new Fuse(searchIndex, options);
@@ -46,14 +48,17 @@
             const searchBoxes = document.querySelectorAll('.search-box');
             
             const thumbnailBox = document.querySelector('.thumbnails');
-            thumbnailBox.innerHTML = searchIndex.slice(0,defaultResults+1).map(thumbnailTemplate).join('');
+            const resultsSorted = searchIndex.slice(0,defaultResults+1).sort(function(a,b){return b.date-a.date});
+            thumbnailBox.innerHTML = resultsSorted.map(thumbnailTemplate).join('');
 
             for (var i = 0; i < searchBoxes.length; i++) {
                 searchBoxes[i].addEventListener('keyup', search, false);
             }
 
             function search(event) {
-                const searchResults = event.target.value.length >= options.minMatchCharLength ? fuse.search(event.target.value) : searchIndex.slice(0,defaultResults+1);
+                const searchResults = event.target.value.length >= options.minMatchCharLength ? 
+                fuse.search(event.target.value) : 
+                searchIndex.slice(0,defaultResults+1).sort(function(a,b){return b.date-a.date});
                 
                 const searchResultsFormatted = searchResults.map(thumbnailTemplate).join('');
 
