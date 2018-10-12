@@ -35,9 +35,11 @@
     })
     .then(function (searchJSON) {
       const searchIndex = searchJSON.map(function (d) {
-        if (d.keywords) d.keywords = d.keywords.slice(1, -1).split(",").map(d => d.trim());
+        console.log(d.keywords)
+        if (d.keywords) d.keywords = cleanKeywords(d.keywords);
         if (d.author) d.author = d.author.slice(1, -1).split(",").map(d => d.trim());
         if (d.date) d.date = new Date(d.date);
+        console.log(d.keywords)
 
         return d;
       })
@@ -63,6 +65,17 @@
         const searchResultsFormatted = searchResults.map(thumbnailTemplate).join('');
 
         thumbnailBox.innerHTML = searchResultsFormatted;
+      }
+
+      function cleanKeywords(currKeyword){
+        let splitKeywords = currKeyword.split(",").map(d => d.trim());
+
+        if(splitKeywords.length > 1){
+          splitKeywords[0] = splitKeywords[0].slice(1);
+          splitKeywords[splitKeywords.length-1] = splitKeywords[splitKeywords.length-1].slice(0,-1);
+        }
+
+        return splitKeywords;
       }
 
       function thumbnailTemplate(d) {
