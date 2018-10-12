@@ -21,3 +21,4 @@ collections:
       - {label: "Image Teaser", name: "teaserImage", widget: "image"}
       - {label: "Keywords (comma delimited)", name: "keywords", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Main Class", name: "mainClass", widget: "hidden", default: "blog"}

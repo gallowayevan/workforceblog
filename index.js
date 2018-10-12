@@ -11,9 +11,25 @@ rsyncSource()
 
 var hljs = require('highlight.js')
 var marked = require('marked')
+
+//modify marked rendered to output images with links
+var renderer = new marked.Renderer();
+renderer.image = function(href, title, text) {
+  if (this.options.baseUrl && !originIndependentUrl.test(href)) {
+    href = resolveUrl(this.options.baseUrl, href);
+  }
+  var out = '<a href="' + href + '"> <img src="' + href + '" alt="' + text + '"';
+  if (title) {
+    out += ' title="' + title + '"';
+  }
+  out += this.options.xhtml ? '/></a>' : '></a>';
+  return out;
+};
+
 marked.setOptions({
   highlight: (code, lang) => hljs.highlight(lang, code).value,
-  smartypants: true
+  smartypants: true,
+  renderer: renderer
 })
 
 var templates = {}
@@ -45,6 +61,10 @@ function parsePost(path){
     var [key, val] = line.split(/: (.+)/)
     post[key] = val
   })
+
+  if(!post.hasOwnProperty('mainClass')) {
+    post.mainClass = "blog"; //default to blog style
+}
 
   return post
 }

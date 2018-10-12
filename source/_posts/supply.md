@@ -6,6 +6,7 @@ author: Evan Galloway
 permalink: /supply
 teaserText: Find out more about the supply of health professionals in North Carolina.
 teaserImage: /images/posts/supply.png
+mainClass: content
 ---
 
 <div id='app'>
@@ -31,11 +32,11 @@ teaserImage: /images/posts/supply.png
   </details>
   <details>
   <summary class="summary-header">HPDS Physician and Physician Assistant Primary Area of Practice Information</summary>
-  <h6><strong>What is a Primary Area of Practice?</strong></h6>
+  <h6 style="font-weight:600">What is a Primary Area of Practice?</h6>
   <p>The NCMB annual licensure/reregistration forms request self-selected primary area of practice, defined as “<em>What you primarily do as a physician</em>.”  The forms note that “Primary area of practice may correspond to an ABMS/AOA certification or a generally recognized area of work, such as ‘hospitalist’ or ‘administrative medicine.’”</p>
-  <h6><strong>Why doesn’t the data visualization tool have Primary Area of Practice data prior to 2011?</strong></h6>
+  <h6 style="font-weight:600">Why doesn’t the data visualization tool have Primary Area of Practice data prior to 2011?</h6>
   <p>The NCMB began to collect data on physician and PA primary area of practice in 2011.  Data on primary area of practice are not available prior to 2011.</p>
-  <h6><strong>How are Primary Areas of Practice grouped in the data visualization tool?</strong></h6>
+  <h6 style="font-weight:600">How are Primary Areas of Practice grouped in the data visualization tool?</h6>
   <p>The HPDS area of practice categories used in the data visualization tool group physicians and PAs <strong>by what they primarily <span style="text-decoration: underline;">do</span>, <em>not</em> by how they trained.</strong>  For example, adolescent medicine is categorized as general pediatrics, no matter whether the branch specialty was pediatrics, family medicine, or internal medicine.</p>
   <p>The “Primary Care Physician” and “Generalist Physician” groups include counts of physicians from multiple areas of practice are not exclusive groups.  For example, a physician who selects a primary area of practice of “pediatrics” is included in the Primary Care Physician, Generalist Physician, and General Pediatrics groups.  General Pediatrics is an exclusive group, meaning that the physician is excluded from all other area of practice groups.</p>
   <details style="margin-left: 1em;">

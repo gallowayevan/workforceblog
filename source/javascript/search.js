@@ -35,11 +35,9 @@
     })
     .then(function (searchJSON) {
       const searchIndex = searchJSON.map(function (d) {
-        console.log(d.keywords)
         if (d.keywords) d.keywords = cleanKeywords(d.keywords);
         if (d.author) d.author = d.author.slice(1, -1).split(",").map(d => d.trim());
-        if (d.date) d.date = new Date(d.date);
-        console.log(d.keywords)
+        if (d.date) d.date = new Date(d.date); 
 
         return d;
       })

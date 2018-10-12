@@ -11,9 +11,25 @@ rsyncSource()
 
 var hljs = require('highlight.js')
 var marked = require('marked')
+
+//modify marked rendered to output images with links
+var renderer = new marked.Renderer();
+renderer.image = function(href, title, text) {
+  if (this.options.baseUrl && !originIndependentUrl.test(href)) {
+    href = resolveUrl(this.options.baseUrl, href);
+  }
+  var out = '<a href="' + href + '"> <img src="' + href + '" alt="' + text + '"';
+  if (title) {
+    out += ' title="' + title + '"';
+  }
+  out += this.options.xhtml ? '/></a>' : '></a>';
+  return out;
+};
+
 marked.setOptions({
   highlight: (code, lang) => hljs.highlight(lang, code).value,
-  smartypants: true
+  smartypants: true,
+  renderer: renderer
 })
 
 var templates = {}
@@ -45,16 +61,20 @@ function parsePost(path){
 }
 
 const postsForIndexing = posts.map(d=>Object.assign({}, d)).filter(d=>!(d.hide == 'true' ? true : false));
-const searchIndex = JSON.stringify(postsForIndexing.map(ensureDescription));
+const searchIndex = JSON.stringify(postsForIndexing.map(cleanPost));
 fs.writeFileSync(public + '/searchIndex.json', searchIndex);
 
-function ensureDescription(post){
+function cleanPost(post){
     const regexForTagsEtc = /<\s*script[^>]*>[\s\S]*?(<\s*\/script[^>]*>|$)|&#(\d+);|<[^>]+>|\\n/gi;
 
     if(!post.hasOwnProperty('desc')) {
         let cleanText = post.html.replace(regexForTagsEtc, '').replace(/\s\s+/g, ' ');
         post.desc = shorten(cleanText, 400);
     }
+
+    if(!post.hasOwnProperty('mainClass')) {
+      post.mainClass = "blog"; //default to blog style
+  }
   
     delete post.html;
     delete post.template;
