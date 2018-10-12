@@ -57,6 +57,10 @@ function parsePost(path){
     post[key] = val
   })
 
+  if(!post.hasOwnProperty('mainClass')) {
+    post.mainClass = "blog"; //default to blog style
+}
+
   return post
 }
 
@@ -72,10 +76,6 @@ function cleanPost(post){
         post.desc = shorten(cleanText, 400);
     }
 
-    if(!post.hasOwnProperty('mainClass')) {
-      post.mainClass = "blog"; //default to blog style
-  }
-  
     delete post.html;
     delete post.template;
 
