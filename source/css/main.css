@@ -2,6 +2,13 @@
 	color: #2376A1;
 } 
 
+.byline {
+  color: #666666;
+  border-top: 1px solid #E1E1E1;
+  padding-top: 5px;
+  display: inline-block;
+}
+
 /*Details and Summary
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 

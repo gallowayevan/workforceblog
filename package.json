@@ -8,7 +8,7 @@
     "marked": "^0.3.6"
   },
   "scripts": {
-    "start": "node ./index.js --watch & cd public/ && hot-server",
+    "start": "node ./build.js --watch & cd public/ && hot-server",
     "build": "node ./build.js"
   } 
 }

@@ -35,8 +35,8 @@
     })
     .then(function (searchJSON) {
       const searchIndex = searchJSON.map(function (d) {
-        if (d.keywords) d.keywords = cleanKeywords(d.keywords);
-        if (d.author) d.author = d.author.slice(1, -1).split(",").map(d => d.trim());
+        if (d.keywords) d.keywords = cleanCommaDelimited(d.keywords);
+        if (d.author) d.author = cleanCommaDelimited(d.author);
         if (d.date) d.date = new Date(d.date); 
 
         return d;
@@ -65,15 +65,15 @@
         thumbnailBox.innerHTML = searchResultsFormatted;
       }
 
-      function cleanKeywords(currKeyword){
-        let splitKeywords = currKeyword.split(",").map(d => d.trim());
+      function cleanCommaDelimited(current){
+        let split = current.split(",").map(d => d.trim());
 
-        if(splitKeywords.length > 1){
-          splitKeywords[0] = splitKeywords[0].slice(1);
-          splitKeywords[splitKeywords.length-1] = splitKeywords[splitKeywords.length-1].slice(0,-1);
+        if(split.length > 1){
+          split[0] = split[0].slice(1);
+          split[split.length-1] = split[split.length-1].slice(0,-1);
         }
 
-        return splitKeywords;
+        return split;
       }
 
       function thumbnailTemplate(d) {

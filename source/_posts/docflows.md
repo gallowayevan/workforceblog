@@ -2,7 +2,7 @@
 template: post.html
 title: DocFlows
 date: 2018-06-14T00:00:00.000Z
-author: Evan Galloway
+author: 'Evan Galloway, Julie Spero, Jim Terry'
 hide: false
 permalink: /docflows
 teaserText: Where are North Carolina residents going? Find out with the DocFlows model.
