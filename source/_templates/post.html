@@ -41,7 +41,7 @@
   <div class="${d.mainClass}">
     ${d.html}
     
-    ${d.mainClass == "blog" ?  `<p class="byline">By ${d.authorString} | ${new Date(d.date).toDateString()}</p>` : ''} 
+    ${d.mainClass == "blog" && d.permalink != '/about' ?  `<p class="byline">By ${d.authorString} | ${new Date(d.date).toDateString()}</p>` : ''} 
   </div>
 
 

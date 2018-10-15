@@ -97,11 +97,11 @@ posts.forEach(function(post){
           fs.copyFile(source + "/images/thumbnails/" +  filename, public + "/images/thumbnails/" +  filename, (err) => {if (err) throw err;});
         })  
       } else {
-        console.log(post.title + " already has a thumbnail.")
+        // console.log(post.title + " already has a thumbnail.")
       }
     }) 
   } else {
-    console.log(post.title + " is missing teaserImage.")
+    // console.log(post.title + " is missing teaserImage.")
   }
 })
 
