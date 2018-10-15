@@ -79,7 +79,7 @@
       function thumbnailTemplate(d) {
         return `<div class="thumb-wrapper thumb-wrapper-small">
                 <a aria-label="${d.title}" href=${d.permalink}>
-                  <div style="padding-top: 62.5%; background-image: url('${d.teaserImage}'); background-size: cover;"></div>
+                  <div style="padding-top: 62.5%; background-image: url('${d.teaserThumbnail}'); background-size: cover;"></div>
                 </a>
                 <div class="thumb-title-wrapper">
                   <a class="thumb-title-link" href="${d.permalink}">
