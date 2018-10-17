@@ -38,7 +38,7 @@
         if (d.keywords) d.keywords = cleanCommaDelimited(d.keywords);
         if (d.author) d.author = cleanCommaDelimited(d.author);
         if (d.date) d.date = new Date(d.date); 
-
+    
         return d;
       })
       const fuse = new Fuse(searchIndex, options);
@@ -68,10 +68,10 @@
       function cleanCommaDelimited(current){
         let split = current.split(",").map(d => d.trim());
 
-        if(split.length > 1){
-          split[0] = split[0].slice(1);
-          split[split.length-1] = split[split.length-1].slice(0,-1);
-        }
+        // if(split.length > 1){
+        //   split[0] = split[0].slice(1);
+        //   split[split.length-1] = split[split.length-1].slice(0,-1);
+        // }
 
         return split;
       }

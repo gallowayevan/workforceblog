@@ -1,5 +1,6 @@
 var fs = require('fs')
 var path = require('path');
+const yaml = require('js-yaml');
 var { exec, execSync } = require('child_process')
 
 var public = `${__dirname}/public`
@@ -10,7 +11,7 @@ function rsyncSource() {
 }
 rsyncSource()
 
-var hljs = require('highlight.js')
+// var hljs = require('highlight.js')
 var marked = require('marked')
 
 
@@ -29,7 +30,7 @@ renderer.image = function (href, title, text) {
 };
 
 marked.setOptions({
-  highlight: (code, lang) => hljs.highlight(lang, code).value,
+  // highlight: (code, lang) => hljs.highlight(lang, code).value,
   smartypants: true,
   renderer: renderer
 })
@@ -53,14 +54,17 @@ function parsePost(path) {
   var top = postArray[1]
   var body = postArray.length > 3 ? postArray.slice(2).join("---") : postArray[2]
 
-  var post = { html: marked(body) }
-  top.split('\n').forEach(line => {
-    var [key, val] = line.split(/: (.+)/)
-    post[key] = val
-  })
+  var post = yaml.safeLoad(top);
+  // top.split('\n').forEach(line => {
+  //   var [key, val] = line.split(/: (.+)/)
+  //   post[key] = val
+  // })
+  post.html = marked(body);
 
   if (post.hasOwnProperty('author')) {
+
     const authorArray = cleanCommaDelimited(post.author);
+
        const authorString = authorArray.length == 1 ? authorArray[0] :
        authorArray.slice(0,-1).join(", ") + " and " + authorArray[authorArray.length - 1];
 
@@ -79,7 +83,6 @@ const sharp = require('sharp');
 
 posts.forEach(function(post){
   if (post.hasOwnProperty('teaserImage')) {
-    
     //Make new filename with jpg
     const filename = path.parse(post.teaserImage).base.slice(0,-3) + "jpg";
     
@@ -108,7 +111,7 @@ posts.forEach(function(post){
 //sharp(source + '/images/posts/supply.png').resize(480).toFile(source + '/images/posts/supply.jpg') 
 
 //Build index
-const postsForIndexing = posts.map(d => Object.assign({}, d)).filter(d => !(d.hide == 'true' ? true : false));
+const postsForIndexing = posts.map(d => Object.assign({}, d)).filter(d => !d.hide);
 const searchIndex = JSON.stringify(postsForIndexing.map(ensureDescription));
 fs.writeFileSync(public + '/searchIndex.json', searchIndex);
 
@@ -138,10 +141,10 @@ function ensureDescription(post) {
 function cleanCommaDelimited(current) {
   let split = current.split(",").map(d => d.trim());
 
-  if (split.length > 1) {
-    split[0] = split[0].slice(1);
-    split[split.length - 1] = split[split.length - 1].slice(0, -1);
-  }
+  // if (split.length > 1) {
+  //   split[0] = split[0].slice(1);
+  //   split[split.length - 1] = split[split.length - 1].slice(0, -1);
+  // }
 
   return split;
 }

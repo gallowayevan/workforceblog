@@ -189,18 +189,10 @@ keywords: demography, rural
 		letter-spacing:-0.017em;
 	}
 
-@media screen and (max-width: 600){
-		#g-bubble-plot-desktop {display: none;}
-	}
-
-@media screen and (min-width: 601){
-		#g-bubble-plot-mobile {display: none;}
-    }
-    
 </style>
 
 <div id="g-bubble-plot-box" class="ai2html ai2html-box-v5">
-	<div id="g-bubble-plot-desktop" class="g-artboard" style="width:720px; height:539.234042553191px;" data-aspect-ratio="1.335" data-min-width="720">
+	<div id="g-bubble-plot-desktop" class="g-artboard" style="padding: 0 0 74.8936% 0;" data-aspect-ratio="1.335" data-min-width="720">
 		<img id="g-bubble-plot-desktop-img" class="g-aiImg g-aiAbs" src="/rural_young_old_population/bubble-plot-desktop.png"/>
 		<div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:4.1997%;margin-top:-12.6px;left:4.1482%;width:608px;">
 			<p class="g-pstyle0"><span class="g-cstyle0">R</span>etirees w<span class="g-cstyle1">i</span>ll <span class="g-cstyle1">s</span>oon be more nume<span class="g-cstyle1">r</span>ous th<span class="g-cstyle1">a</span>n child<span class="g-cstyle1">r</span>en in ru<span class="g-cstyle2">r</span>al No<span class="g-cstyle1">r</span>th Ca<span class="g-cstyle1">r</span>ol<span class="g-cstyle1">i</span>na</p>
@@ -281,7 +273,7 @@ keywords: demography, rural
 			<p>Notes<span class="g-cstyle1">:</span> <span class="g-cstyle10">R</span>u<span class="g-cstyle4">r</span>al i<span class="g-cstyle1">s</span> defined at <span class="g-cstyle1">t</span>he coun<span class="g-cstyle11">t</span>y le<span class="g-cstyle6">v</span>el using <span class="g-cstyle1">t</span>he US Office of <span class="g-cstyle1">M</span>anagement & Budge<span class="g-cstyle1">t</span> Metr<span class="g-cstyle1">o</span> 20<span class="g-cstyle1">1</span>5 del<span class="g-cstyle1">i</span>neati<span class="g-cstyle1">o</span>n files. <span class="g-cstyle7">R</span>u<span class="g-cstyle12">r</span>al <span class="g-cstyle1">i</span>ncludes <span class="g-cstyle1">a</span>ll countie<span class="g-cstyle1">s</span> that <span class="g-cstyle1">a</span>re not c<span class="g-cstyle1">l</span>ass<span class="g-cstyle1">i</span>fied a<span class="g-cstyle1">s</span> metropo<span class="g-cstyle1">l</span>it<span class="g-cstyle1">a</span>n (54 <span class="g-cstyle1">c</span>ounties<span class="g-cstyle1">)</span>. <span class="g-cstyle0">P</span>opula<span class="g-cstyle1">t</span>ion est<span class="g-cstyle1">i</span>mates <span class="g-cstyle1">a</span>nd project<span class="g-cstyle1">i</span>ons a<span class="g-cstyle1">r</span>e from the No<span class="g-cstyle1">r</span>th C<span class="g-cstyle1">a</span>rol<span class="g-cstyle1">i</span>na Office of St<span class="g-cstyle1">a</span>te Budget & M<span class="g-cstyle1">a</span>nagement.</p>
 		</div>
 	</div>
-	<div id="g-bubble-plot-mobile" class="g-artboard" style="width:320px; height:575.234042553191px;" data-aspect-ratio="0.556" data-min-width="320" data-max-width="719">
+	<div id="g-bubble-plot-mobile" class="g-artboard" style="padding: 0 0 179.7606% 0;" data-aspect-ratio="0.556" data-min-width="320" data-max-width="719">
 		<img id="g-bubble-plot-mobile-img" class="g-aiImg g-aiAbs" src="/rural_young_old_population/bubble-plot-mobile.png"/>
 		<div id="g-ai1-1" class="g-Layer_1 g-aiAbs" style="top:1.2169%;left:5.783%;width:92.5%;">
 			<p class="g-pstyle0"><span class="g-cstyle0">R</span>etirees w<span class="g-cstyle1">i</span>ll <span class="g-cstyle1">s</span>oon be more </p>
@@ -366,3 +358,72 @@ keywords: demography, rural
 	</div>
 
 </div>
+ <script type="text/javascript">
+    (function() {
+        // only want one resizer on the page
+        if (document.documentElement.className.indexOf("g-resizer-v3-init") > -1) return;
+        document.documentElement.className += " g-resizer-v3-init";
+        // require IE9+
+        if (!("querySelector" in document)) return;
+        function resizer() {
+            var elements = Array.prototype.slice.call(document.querySelectorAll(".g-artboard[data-min-width]")),
+                widthById = {};
+            elements.forEach(function(el) {
+                var parent = el.parentNode,
+                    width = widthById[parent.id] || parent.getBoundingClientRect().width,
+                    minwidth = el.getAttribute("data-min-width"),
+                    maxwidth = el.getAttribute("data-max-width");
+                widthById[parent.id] = width;
+                if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+                    el.style.display = "block";
+                } else {
+                    el.style.display = "none";
+                }
+            });
+            try {
+                if (window.parent && window.parent.$) {
+                    window.parent.$("body").trigger("resizedcontent", [window]);
+                }
+                if (window.require) {
+                    require(['foundation/main'], function() {
+                        require(['shared/interactive/instances/app-communicator'], function(AppCommunicator) {
+                            AppCommunicator.triggerResize();
+                        });
+                    });
+                }
+            } catch(e) { console.log(e); }
+        }
+        document.addEventListener('DOMContentLoaded', resizer);
+        // feel free to replace throttle with _.throttle, if available
+        window.addEventListener('resize', throttle(resizer, 200));        
+        function throttle(func, wait) {
+            // from underscore.js
+            var _now = Date.now || function() { return new Date().getTime(); },
+                context, args, result, timeout = null, previous = 0;
+            var later = function() {
+                previous = _now();
+                timeout = null;
+                result = func.apply(context, args);
+                if (!timeout) context = args = null;
+            };
+            return function() {
+                var now = _now(), remaining = wait - (now - previous);
+                context = this;
+                args = arguments;
+                if (remaining <= 0 || remaining > wait) {
+                    if (timeout) {
+                        clearTimeout(timeout);
+                        timeout = null;
+                    }
+                    previous = now;
+                    result = func.apply(context, args);
+                    if (!timeout) context = args = null;
+                } else if (!timeout && options.trailing !== false) {
+                    timeout = setTimeout(later, remaining);
+                }
+                return result;
+            };
+        }
+       
+    })();
+</script>
