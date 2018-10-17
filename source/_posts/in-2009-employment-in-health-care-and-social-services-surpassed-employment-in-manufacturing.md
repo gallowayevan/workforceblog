@@ -14,4 +14,4 @@ mainClass: blog
 ---
 * Health care and social services employment in NC has steadily increased since 2000, even after the economic recession in 2008.
 
-![](/images/posts/ncmanufacturingvshealthcarejobs.jpg)
+![null](/images/posts/ncmanufacturingvshealthcarejobs.jpg)
