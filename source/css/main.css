@@ -147,6 +147,20 @@ body {
     height: auto;
   }
 
+  .title {
+    font-weight: 600;   
+    border-bottom: 2px dotted #E1E1E1;
+    margin-bottom: 10px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .title > h5 {
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
   /*Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .footer {

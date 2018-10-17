@@ -39,6 +39,8 @@
    </nav>
  </div>
   <div class="${d.mainClass}">
+    <div class="title"><h5>${d.title}</h5></div>
+  
     ${d.html}
     
     ${d.mainClass == "blog" && d.permalink != '/about' ?  `<p class="byline">By ${d.authorString} | ${new Date(d.date).toDateString()}</p>` : ''} 

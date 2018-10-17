@@ -9,30 +9,6 @@
 		
 		<url>
 			<priority>0.5</priority>
-			<loc>https://nchealthworkforce.unc.edu/dentist_age_distribution</loc>
-			<lastmod>Sun Aug 26 2018 20:00:00 GMT-0400 (DST)</lastmod>
-		</url>
-		
-		<url>
-			<priority>0.5</priority>
-			<loc>https://nchealthworkforce.unc.edu/docflows</loc>
-			<lastmod>Wed Jun 13 2018 20:00:00 GMT-0400 (DST)</lastmod>
-		</url>
-		
-		<url>
-			<priority>0.5</priority>
-			<loc>https://nchealthworkforce.unc.edu/docflows2</loc>
-			<lastmod>Mon Oct 08 2018 20:00:00 GMT-0400 (DST)</lastmod>
-		</url>
-		
-		<url>
-			<priority>0.5</priority>
-			<loc>https://nchealthworkforce.unc.edu/docflows_github</loc>
-			<lastmod>Wed Jun 13 2018 20:00:00 GMT-0400 (DST)</lastmod>
-		</url>
-		
-		<url>
-			<priority>0.5</priority>
 			<loc>https://nchealthworkforce.unc.edu/help</loc>
 			<lastmod>Wed Jun 13 2018 20:00:00 GMT-0400 (DST)</lastmod>
 		</url>
@@ -51,12 +27,6 @@
 		
 		<url>
 			<priority>0.5</priority>
-			<loc>https://nchealthworkforce.unc.edu/physician_age_map</loc>
-			<lastmod>Sun Aug 26 2018 20:00:00 GMT-0400 (DST)</lastmod>
-		</url>
-		
-		<url>
-			<priority>0.5</priority>
 			<loc>https://nchealthworkforce.unc.edu/rural_young_old_population</loc>
 			<lastmod>Wed Apr 11 2018 20:00:00 GMT-0400 (DST)</lastmod>
 		</url>
@@ -65,24 +35,6 @@
 			<priority>0.5</priority>
 			<loc>https://nchealthworkforce.unc.edu/supply</loc>
 			<lastmod>Wed Jun 13 2018 20:00:00 GMT-0400 (DST)</lastmod>
-		</url>
-		
-		<url>
-			<priority>0.5</priority>
-			<loc>https://nchealthworkforce.unc.edu/ai2html</loc>
-			<lastmod>Sun Oct 07 2018 20:00:00 GMT-0400 (DST)</lastmod>
-		</url>
-		
-		<url>
-			<priority>0.5</priority>
-			<loc>https://nchealthworkforce.unc.edu/test-thumbnail</loc>
-			<lastmod>Mon Oct 15 2018 10:39:24 GMT-0400 (DST)</lastmod>
-		</url>
-		
-		<url>
-			<priority>0.5</priority>
-			<loc>https://nchealthworkforce.unc.edu/test-test</loc>
-			<lastmod>Tue Sep 18 2018 20:00:00 GMT-0400 (DST)</lastmod>
 		</url>
 		
 </urlset>
