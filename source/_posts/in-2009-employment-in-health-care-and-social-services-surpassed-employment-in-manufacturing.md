@@ -1,8 +1,6 @@
 ---
 template: post.html
-title: >-
-  In 2009, employment in health care and social services surpassed employment in
-  manufacturing 
+title: 'NC Health Care Jobs Surpass Manufacturing Jobs in 2009 '
 date: 2018-10-17T15:52:47.126Z
 author: 'Erin Fraher, Julie Spero'
 hide: false
