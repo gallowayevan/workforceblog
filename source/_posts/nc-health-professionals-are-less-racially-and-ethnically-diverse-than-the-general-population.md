@@ -6,7 +6,7 @@ title: >-
 date: 2018-05-07T18:01:20.490Z
 author: Julie Spero
 hide: false
-permalink: \workforcediversity2014
+permalink: /workforcediversity2014
 teaserText: >-
   NC health professionals are less racially and ethnically diverse than the
   general population.
