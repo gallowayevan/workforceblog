@@ -1,6 +1,6 @@
 ---
 template: post.html
-title: 'NC''s dentist workforce has grown, but only in well-supplied counties'
+title: 'NC''s Dentist Workforce Has Grown, But Only in Well-Supplied Counties'
 date: 2018-10-08T00:00:00.000Z
 author: 'Julie Spero, Evan Galloway'
 hide: false
