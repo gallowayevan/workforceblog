@@ -1,11 +1,13 @@
 ---
 template: post.html
-title: 'NC''s Dentist Workforce Has Grown, But Only in Well-Supplied Counties'
+title: 'NC''s dentist workforce has Grown, but only in well-supplied counties'
 date: 2018-10-08T00:00:00.000Z
 author: 'Julie Spero, Evan Galloway'
 hide: false
 permalink: /dentistchangemap13_17
-teaserText: North Carolina added 551 new dentists between 2013 and 2017. Where did they go?
+teaserText: >-
+  North Carolina added 551 new dentists between 2013 and 2017. Where did they
+  go?
 teaserImage: /images/posts/dentist_change_distribution.png
 keywords: dentists
 ---
