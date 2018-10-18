@@ -2,14 +2,14 @@
 template: post.html
 title: >-
   NC Health Professionals are Less Racially and Ethnically Diverse than the
-  General Population
+  General Population.
 date: 2018-05-07T18:01:20.490Z
 author: Julie Spero
 hide: false
 permalink: \workforcediversity2014
 teaserText: >-
   NC health professionals are less racially and ethnically diverse than the
-  general population
+  general population.
 teaserImage: /images/posts/ncworkforcediversity2014.jpg
 keywords: 'diversity, race, ethnicity'
 mainClass: blog
