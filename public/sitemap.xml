@@ -22,7 +22,7 @@
 		<url>
 			<priority>0.5</priority>
 			<loc>https://nchealthworkforce.unc.edu/manufacturingjobs</loc>
-			<lastmod>Wed Oct 17 2018 11:52:47 GMT-0400 (DST)</lastmod>
+			<lastmod>Tue Apr 10 2018 11:52:47 GMT-0400 (DST)</lastmod>
 		</url>
 		
 		<url>
@@ -33,8 +33,26 @@
 		
 		<url>
 			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu/2016nchealthcarejobs</loc>
+			<lastmod>Wed May 02 2018 11:36:17 GMT-0400 (DST)</lastmod>
+		</url>
+		
+		<url>
+			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu/workforcediversity2014</loc>
+			<lastmod>Mon May 07 2018 14:01:20 GMT-0400 (DST)</lastmod>
+		</url>
+		
+		<url>
+			<priority>0.5</priority>
 			<loc>https://nchealthworkforce.unc.edu/rural_young_old_population</loc>
 			<lastmod>Wed Apr 11 2018 20:00:00 GMT-0400 (DST)</lastmod>
+		</url>
+		
+		<url>
+			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu/simple_county_map_widget</loc>
+			<lastmod>Sun Sep 30 2018 20:00:00 GMT-0400 (DST)</lastmod>
 		</url>
 		
 		<url>

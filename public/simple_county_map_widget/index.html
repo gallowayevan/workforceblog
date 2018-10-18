@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="utf-8">
-  <title>NC Health Workforce - NC's Dentist Workforce Has Grown, But Only in Well-Supplied Counties</title>
+  <title>NC Health Workforce - Click a County to Highlight</title>
   <meta name="description" content="North Carolina Health Professions Data System">
   <meta name="author" content="Sheps Center">
 
@@ -14,7 +14,13 @@
   <link rel="stylesheet" href="../css/skeleton-no-grid.css" type="text/css">
   <link rel="stylesheet" href="../css/main.css" type="text/css">
   
-  <style>undefined</style>
+  <style>.control {
+  display: inline-block;
+  margin: 10px;
+} svg {
+      max-width:100%;
+      height:auto;
+  }</style>
 </head>
 
 <body>
@@ -39,17 +45,53 @@
                  </div>
    </nav>
  </div>
-  <div class="blog">
-    <div class="title"><h5>NC's Dentist Workforce Has Grown, But Only in Well-Supplied Counties</h5></div>
+  <div class="content">
+    <div class="title"><h5>Click a County to Highlight</h5></div>
   
-    <p><a href="/images/posts/dentist_compare_change_to_genpop_for_web.png"> <img src="/images/posts/dentist_compare_change_to_genpop_for_web.png" alt="null"></a></p>
-<ul>
-<li>NC has moved up in the national rankings of dentists per capita, from 44th in 2013 to 37th in 2017.</li>
-<li>The majority of the dentist growth in the state occurred in the few counties already well-supplied with dentists, while the supply of dentists relative to population in rural and underserved counties remained largely unchanged.</li>
-</ul>
+    <p>Click on a county to highlight it. Click again to unhighlight. Choose colors below. Then download as a .png or .svg.</p>
+<div id='map'></div>
+<div class='control' id='selected-color'></div>
+<div class='control' id='non-selected-color' ></div>
+<div class='control' id='show-names' ></div>
+<div class='control' id='stroke'></div>
+<div class='control' id='font-color'></div>
+<div class='control' id='background-color' ></div>
+<div class='control' id='download-png'></div>
+<div class='control' id='download-svg'></div>
 
+<script type="module">
+  // Load the Observable runtime and inspector.
+  import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
+
+  import notebook from "/simple_county_map_widget/simple_county_map_widget.js";
+
+
+  const renders = {
+    "map": "#map",
+    "viewof selectedColor": "#selected-color",
+    "viewof nonSelectedColor": "#non-selected-color",
+    "viewof showNames": "#show-names",
+    "viewof stroke": "#stroke",
+    "viewof fontColor": "#font-color",
+    "viewof backgroundColor": "#background-color",
+    "downloadPNG": "#download-png",
+    "downloadSVG": "#download-svg",
+  };
+
+  for (let i in renders)
+    renders[i] = document.querySelector(renders[i]);
+
+  Runtime.load(notebook, (variable) => {
+    if (renders[variable.name]){
+      return new Inspector(renders[variable.name]);
+    } else {return true;}
+  });
+
+
+//   document.querySelector('.blog').appendChild(document.querySelector('.byline'));
+</script>
     
-    <p class="byline">By Julie Spero and Evan Galloway | Sun Oct 07 2018</p> 
+     
   </div>
 
 
