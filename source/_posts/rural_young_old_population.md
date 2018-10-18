@@ -1,6 +1,6 @@
 ---
 template: post.html
-title: Retirees will soon be more numerous than children in rural North Carolina.
+title: Retirees are increasing in number in rural areas.
 date: 2018-04-12T00:00:00.000Z
 author: Evan Galloway
 hide: false
