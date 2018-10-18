@@ -1,7 +1,7 @@
 ---
 template: post.html
 title: 'NC Health Care Jobs Surpass Manufacturing Jobs in 2009 '
-date: 2018-10-17T15:52:47.126Z
+date: 2018-04-10T15:52:47.126Z
 author: 'Erin Fraher, Julie Spero'
 hide: false
 permalink: /manufacturingjobs
