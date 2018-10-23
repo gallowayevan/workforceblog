@@ -9,4 +9,6 @@ teaserText: Retirees will soon be more numerous than children in rural North Car
 teaserImage: /images/posts/bubble_plot_high_quality_desktop.png
 keywords: 'demography, rural'
 ---
+- The increasing population of retirees in rural counties will drive ongoing demand for healthcare services in rural areas.
+- The types of services that health professionals provide in rural areas will also continue to shift, reflecting the needs of an aging population.
 ![](/images/posts/bubble_plot_high_quality_desktop.png)

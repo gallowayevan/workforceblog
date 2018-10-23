@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-	<title>North Carolina Health Workforce</title>
+	<title>Sheps Health Workforce NC</title>
 	<link>https://nchealthworkforce.unc.edu</link>
 	<description>Charts and data from the Program on Health Workforce Research and Policy at the Sheps Center for Health Services Research.</description>
 	<image>
-		<url>https://nchealthworkforce.unc.edu/images/ShepsLogo_black_h.png</url>
+		<url>/images/sheps_health_workforce_nc_white_background.png</url>
 		<title>Program on Health Workforce Research and Policy at the Sheps Center for Health Services Research</title>
 		<link>https://nchealthworkforce.unc.edu</link>
 	</image>
-	${d.filter(post => post.draft != 'true').reverse().map(post => 
+	${d.filter(post => post.hide != 'true').reverse().map(post => 
 		`
 		<item>
 			<title>${post.title}</title>

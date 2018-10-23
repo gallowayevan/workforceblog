@@ -28,7 +28,7 @@ Play with the different color variables and then download as an image (png) or s
   } else {
     
   const path = d3.geoPath();
-  const newSvg = d3.select(svg`<svg width=960 height=400 class='map'></svg>`);
+  const newSvg = d3.select(svg`<svg width=1920 height=800 class='map'></svg>`);
   newSvg.property("value", newSvg.node());
   
   newSvg.append('style').html(styles).attr('class', 'mapStyles');
@@ -42,6 +42,7 @@ Play with the different color variables and then download as an image (png) or s
     .selectAll(".counties")
     .data(topojson.feature(nc, nc.objects.ncmap).features);
   
+    
     counties.enter().append("path")
     .attr("d", path)
     .on("click", function(d){  
@@ -267,9 +268,13 @@ const m1 = {
   const xlinkns = "http://www.w3.org/1999/xlink";
   const svgns = "http://www.w3.org/2000/svg";
   return function serialize(svg) {
+    const scale = 2;
     svg = svg.cloneNode(true);
     svg.setAttributeNS(xmlns, "xmlns", svgns);
     svg.setAttributeNS(xmlns, "xmlns:xlink", xlinkns);
+    // svt.setAttribute('width')
+    // svg.querySelector('.counties').setAttribute("transform", `scale(${scale})`);
+    // svg.querySelector('rect').setAttribute("transform", `scale(${scale})`);
     const serializer = new window.XMLSerializer;
     const string = serializer.serializeToString(svg);
     return new Blob([string], {type: "image/svg+xml"});
