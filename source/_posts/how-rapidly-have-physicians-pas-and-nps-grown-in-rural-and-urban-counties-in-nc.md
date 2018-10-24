@@ -8,7 +8,7 @@ author: Julie Spero
 hide: false
 permalink: /physician_np_pa_growth_rural2017
 teaserText: >-
-  How Rapidly Have Physicians, PAs, and NPs Grown in Rural and Urban Counties in
+  How rapidly have physicians, PAs, and NPs grown in rural and urban counties in
   NC?
 teaserImage: /images/posts/ncphysicianpanpgrowthnonmetro2017.jpg
 keywords: >-
