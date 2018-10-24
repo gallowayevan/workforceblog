@@ -1,8 +1,8 @@
 ---
 template: post.html
 title: >-
-  How Rapidly Have Physicians, PAs, and NPs Grown in Rural and Urban Counties in
-  NC?
+  Over the Past Decade, Growth of North Carolina's NPs and PAs Has Outpaced That
+  of Physicians.
 date: 2018-10-24T14:04:23.517Z
 author: Julie Spero
 hide: false
@@ -16,7 +16,8 @@ keywords: >-
   rural, metropolitan
 mainClass: blog
 ---
-* Over the past decade, growth of North Carolina's NP and PA workforces has substantially outpaced that of physicians.
-* Growth of the NP workforce in non-metropolitan (rural) counties has kept pace with NP growth in metropolitan (urban) counties.
-* In recent years, physician and PA workforce growth has been more rapid in urban counties than rural counties.
-* ![](/images/posts/ncphysicianpanpgrowthnonmetro2017.jpg)
+* The total number of NPs and PAs in North Carolina is less than the number of physicians, but new NPs and PAs are entering NC's workforce faster than physicians are.
+* The NP workforce has grown the most rapidly of the three, with growth in non-metropolitan (rural) counties keeping pace with that of metropolitan (urban) counties.
+* In recent years, the rate of growth of PAs and physicians has been greater in urban counties.
+
+![](/images/posts/ncphysicianpanpgrowthnonmetro2017.jpg)
