@@ -246,13 +246,13 @@ body {
 
 .thumb-main {
   margin: auto;
-  width: 50%;
+  width: 80%;
 }
 
 @media (max-width: 715px) {
   .thumb-main {
     margin: auto;
-    width: 80%;
+    width: 100%;
   }
 
 }
