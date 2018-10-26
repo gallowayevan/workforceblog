@@ -21,6 +21,12 @@
 		
 		<url>
 			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu/physician_np_pa_growth_rural2017</loc>
+			<lastmod>Wed Oct 24 2018 10:04:23 GMT-0400 (DST)</lastmod>
+		</url>
+		
+		<url>
+			<priority>0.5</priority>
 			<loc>https://nchealthworkforce.unc.edu/manufacturingjobs</loc>
 			<lastmod>Tue Apr 10 2018 11:52:47 GMT-0400 (DST)</lastmod>
 		</url>
