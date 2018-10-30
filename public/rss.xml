@@ -11,31 +11,10 @@
 	</image>
 	
 		<item>
-			<title>North Carolina Health Professional Supply Data</title>
-			
-			<link>https://nchealthworkforce.unc.edu/supply</link>
-			<pubDate>Thu, 14 Jun 2018 00:00:00 GMT</pubDate>
-		</item>
-		
-		<item>
-			<title>Click a County to Highlight</title>
-			
-			<link>https://nchealthworkforce.unc.edu/simple_county_map_widget</link>
-			<pubDate>Mon, 01 Oct 2018 00:00:00 GMT</pubDate>
-		</item>
-		
-		<item>
 			<title>Rural residents who are 65 or older are increasing in both number and proportion.</title>
 			
 			<link>https://nchealthworkforce.unc.edu/rural_young_old_population</link>
 			<pubDate>Thu, 12 Apr 2018 00:00:00 GMT</pubDate>
-		</item>
-		
-		<item>
-			<title>North Carolina's Nurse Practitioner and Physician Assistant Workforces are Growing Rapidly</title>
-			
-			<link>https://nchealthworkforce.unc.edu/NCNPphysicianPAgrowth2017</link>
-			<pubDate>Thu, 18 Oct 2018 19:48:01 GMT</pubDate>
 		</item>
 		
 		<item>
@@ -74,24 +53,10 @@
 		</item>
 		
 		<item>
-			<title>Help</title>
-			
-			<link>https://nchealthworkforce.unc.edu/help</link>
-			<pubDate>Thu, 14 Jun 2018 00:00:00 GMT</pubDate>
-		</item>
-		
-		<item>
 			<title>How has the physician supply changed over time in North Carolina counties?</title>
 			
 			<link>https://nchealthworkforce.unc.edu/county_physician_beeswarm</link>
 			<pubDate>Tue, 08 May 2018 00:00:00 GMT</pubDate>
-		</item>
-		
-		<item>
-			<title>About</title>
-			
-			<link>https://nchealthworkforce.unc.edu/about</link>
-			<pubDate>Thu, 14 Jun 2018 00:00:00 GMT</pubDate>
 		</item>
 		
 </channel>

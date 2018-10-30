@@ -9,7 +9,7 @@
 		<title>Program on Health Workforce Research and Policy at the Sheps Center for Health Services Research</title>
 		<link>https://nchealthworkforce.unc.edu</link>
 	</image>
-	${d.filter(post => post.hide != 'true').reverse().map(post => 
+	${d.filter(post => post.hide != true).reverse().map(post => 
 		`
 		<item>
 			<title>${post.title}</title>
