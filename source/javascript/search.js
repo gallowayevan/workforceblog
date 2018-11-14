@@ -43,12 +43,12 @@
       })
       const fuse = new Fuse(searchIndex, options);
 
-      const defaultResults = 6;
+      const defaultResults = 9;
 
       const searchBoxes = document.querySelectorAll('.search-box');
 
       const thumbnailBox = document.querySelector('.thumbnails');
-      const resultsSorted = searchIndex.slice(0, defaultResults + 1).sort(function (a, b) { return b.date - a.date });
+      const resultsSorted = searchIndex.slice(0, defaultResults).sort(function (a, b) { return b.date - a.date });
       thumbnailBox.innerHTML = resultsSorted.map(thumbnailTemplate).join('');
 
       for (var i = 0; i < searchBoxes.length; i++) {
@@ -58,7 +58,7 @@
       function search(event) {
         const searchResults = event.target.value.length >= options.minMatchCharLength ?
           fuse.search(event.target.value) :
-          searchIndex.slice(0, defaultResults + 1).sort(function (a, b) { return b.date - a.date });
+          searchIndex.slice(0, defaultResults).sort(function (a, b) { return b.date - a.date });
 
         const searchResultsFormatted = searchResults.map(thumbnailTemplate).join('');
 
