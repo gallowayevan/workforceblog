@@ -1,7 +1,7 @@
 ---
 template: post.html
 title: >-
-  NC's Public Medical Schools Retain More Graduates in State Than Private
+  NC's Public Medical Schools Retain More Graduates In-State Than Private
   Medical Schools Do.
 date: 2018-11-14T18:30:53.341Z
 author: Julie Spero
