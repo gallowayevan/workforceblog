@@ -14,7 +14,7 @@ teaserImage: /images/posts/ncmedschoolclassof2012_2017outcomes.jpg
 keywords: 'Physicians, Medical Schools'
 mainClass: blog
 ---
-* Of the 436 NC medical school graduates from the class of 2012, 73 (17%) were in practice in primary care in NC in 2017.
+* 1% (n=4) of the 436 NC medical school graduates from the class of 2012 were in practice in primary care in rural NC five years after graduation.
 * All four physicians in primary care practice in a rural county are family medicine physicians who graduated from a public medical school: two each from East Carolina University and the University of North Carolina-Chapel Hill.
 * Primary care includes family medicine, general internal medicine, general pediatrics, internal medicine-pediatrics, and obstetrics & gynecology.
 
