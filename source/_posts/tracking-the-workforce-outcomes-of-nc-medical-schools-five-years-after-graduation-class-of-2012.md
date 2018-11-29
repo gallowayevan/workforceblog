@@ -5,7 +5,7 @@ title: >-
   Graduation: Class of 2012
 date: 2018-11-26T18:12:38.394Z
 author: Julie Spero
-hide: true
+hide: false
 permalink: /NC_MST_Classof2012
 teaserText: >-
   How many graduates from NC medical schools were practicing in primary care in
