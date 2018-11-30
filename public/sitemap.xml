@@ -39,6 +39,12 @@
 		
 		<url>
 			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu/NCMedSchoolRetention2016</loc>
+			<lastmod>Tue Nov 20 2018 11:05:38 GMT-0500 (STD)</lastmod>
+		</url>
+		
+		<url>
+			<priority>0.5</priority>
 			<loc>https://nchealthworkforce.unc.edu/2016nchealthcarejobs</loc>
 			<lastmod>Wed May 02 2018 11:36:17 GMT-0400 (DST)</lastmod>
 		</url>
@@ -77,6 +83,12 @@
 			<priority>0.5</priority>
 			<loc>https://nchealthworkforce.unc.edu/supply</loc>
 			<lastmod>Wed Jun 13 2018 20:00:00 GMT-0400 (DST)</lastmod>
+		</url>
+		
+		<url>
+			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu/NC_MST_Classof2012</loc>
+			<lastmod>Mon Nov 26 2018 13:12:38 GMT-0500 (STD)</lastmod>
 		</url>
 		
 </urlset>

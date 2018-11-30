@@ -48,7 +48,7 @@
       const searchBoxes = document.querySelectorAll('.search-box');
 
       const thumbnailBox = document.querySelector('.thumbnails');
-      const resultsSorted = searchIndex.slice(0, defaultResults).sort(function (a, b) { return b.date - a.date });
+      const resultsSorted = searchIndex.sort(function (a, b) { return b.date - a.date }).slice(0, defaultResults);
       thumbnailBox.innerHTML = resultsSorted.map(thumbnailTemplate).join('');
 
       for (var i = 0; i < searchBoxes.length; i++) {
@@ -58,7 +58,7 @@
       function search(event) {
         const searchResults = event.target.value.length >= options.minMatchCharLength ?
           fuse.search(event.target.value) :
-          searchIndex.slice(0, defaultResults).sort(function (a, b) { return b.date - a.date });
+          searchIndex.sort(function (a, b) { return b.date - a.date }).slice(0, defaultResults);
 
         const searchResultsFormatted = searchResults.map(thumbnailTemplate).join('');
 
