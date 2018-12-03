@@ -43,7 +43,7 @@
       })
       const fuse = new Fuse(searchIndex, options);
 
-      const defaultResults = 9;
+      const defaultResults = 36;
 
       const searchBoxes = document.querySelectorAll('.search-box');
 
