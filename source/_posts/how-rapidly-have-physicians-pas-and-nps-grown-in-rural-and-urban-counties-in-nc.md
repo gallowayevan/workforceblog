@@ -10,7 +10,7 @@ permalink: /physician_np_pa_growth_rural2017
 teaserText: >-
   How rapidly have physicians, PAs, and NPs grown in rural and urban counties in
   NC?
-teaserImage: /images/posts/ncphysicianpanpgrowthnonmetro2017_v2.jpg
+teaserImage: /images/posts/ncphysicianpanpgrowthnonmetro2017_v3.jpg
 keywords: >-
   physician, NP, PA, nurse practitioner, physician assistant, growth, urban,
   rural, metropolitan
@@ -20,4 +20,4 @@ mainClass: blog
 * The NP workforce has grown the most rapidly of the three, with growth in non-metropolitan (rural) counties keeping pace with that of metropolitan (urban) counties.
 * In recent years, the rate of growth for PAs and physicians has been greater in urban counties.
 
-![](/images/posts/ncphysicianpanpgrowthnonmetro2017_v2.jpg)
+![](/images/posts/ncphysicianpanpgrowthnonmetro2017_v3.jpg)
