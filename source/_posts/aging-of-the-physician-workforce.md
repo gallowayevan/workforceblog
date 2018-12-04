@@ -5,7 +5,9 @@ date: 2018-12-04T15:25:41.985Z
 author: 'Evan Galloway, Katie Gaul'
 hide: false
 permalink: /md_avg_age
-teaserText: The rural physician workforce is aging at a faster pace than urban workforce.
+teaserText: >-
+  The rural physician workforce is aging at a faster pace than the urban
+  workforce.
 teaserImage: /images/posts/md_age_over_time.jpg
 keywords: 'Physicians, Age, Longitudinal'
 mainClass: blog
