@@ -7,7 +7,7 @@ hide: true
 permalink: /percent_65_and_older_map
 teaserText: >-
   What percentage of the residents in your county are 65 and older?
-teaserImage: /images/posts/county_physician_beeswarm.png
+teaserImage: /images/posts/percent_65_and_older_map.png
 keywords: 'demographics, general population'
 mainClass: content
 customStyle: >- 
@@ -18,7 +18,6 @@ customStyle: >-
 ---
 <div id='map'></div>
 <div id='viewof-year'></div>
-Data derived from North Carolina Office of State Budget and Management (OSBM) estimates and projections and physician licensure data from the North Carolina Health Professions Data System (from licensure data provided by the North Carolina Medical Board). Metro and nonmetro delineations are from the United States Office of Management and Budget and applied to Census data.
 
 <script type="module">
   // Load the Observable runtime and inspector.
