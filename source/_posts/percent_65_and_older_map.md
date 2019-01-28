@@ -1,6 +1,6 @@
 ---
 template: post.html
-title: 'Which counties have older populations? How will the age distribution change over time?'
+title: 'Which North Carolina counties have older populations?'
 date: 2019-01-28
 author: 'Evan Galloway'
 hide: true
