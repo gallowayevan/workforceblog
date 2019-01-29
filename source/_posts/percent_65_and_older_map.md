@@ -16,11 +16,11 @@ customStyle: >-
         height:auto;
     }
 ---
-* The proportion of the population who are older than 65 has grown faster in rural counties than in urban counties, particularly in the Western and North Eastern regions of the state.
+*The proportion of the population who are older than 65 has grown faster in rural counties than in urban counties, particularly in the Western and North Eastern regions of the state.
 
-* Counties with larger metropolitan areas tend to have a greater proportion of younger residents.
+*Counties with larger metropolitan areas tend to have a greater proportion of younger residents.
 
-* Both counties projected to have the lowest proportions of adults 65 and older by 2037, Hoke and Onslow, have strong ties to large military bases (Fort Bragg and Camp LeJeune). 
+*Both counties projected to have the lowest proportions of adults 65 and older by 2037, Hoke and Onslow, have strong ties to large military bases (Fort Bragg and Camp LeJeune). 
 
 <div id='map'></div>
 <div id='viewof-year'></div>
