@@ -3,7 +3,7 @@ template: post.html
 title: 'Which North Carolina counties have older populations?'
 date: 2019-01-28
 author: 'Evan Galloway, Julie Spero'
-hide: true
+hide: false
 permalink: /percent_65_and_older_map
 teaserText: >-
   What percentage of the residents in your county are 65 and older?
