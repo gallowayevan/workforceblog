@@ -21,7 +21,7 @@ customStyle: >-
 
 <li>Counties with larger metropolitan areas tend to have a greater proportion of younger residents.</li>
 
-<li>Both counties projected to have the lowest proportions of adults 65 and older by 2037, Hoke and Onslow, have strong ties to large military bases (Fort Bragg and Camp LeJeune).</li>
+<li>Hoke and Onslow counties both have strong ties to large military bases (Fort Bragg and Camp LeJeune) and are also projected to have the lowest proportions of adults 65 and older in the state by 2037.</li>
 </ul>
 <div id='map'></div>
 <div id='viewof-year'></div>
