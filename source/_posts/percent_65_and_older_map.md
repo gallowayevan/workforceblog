@@ -2,7 +2,7 @@
 template: post.html
 title: 'Which North Carolina counties have older populations?'
 date: 2019-01-28
-author: 'Evan Galloway'
+author: 'Evan Galloway, Julie Spero'
 hide: true
 permalink: /percent_65_and_older_map
 teaserText: >-
