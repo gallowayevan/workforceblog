@@ -13,7 +13,7 @@ mainClass: content
 <ul>
 <li> Use the slider bar below the map to scroll through years 2000 to 2037 and see the changes by county.
 
-<li>The proportion of the population who are older than 65 has grown faster in rural counties than in urban counties, particularly in the Western and North Eastern regions of the state.</li>
+<li>The proportion of the population who are older than 65 has grown faster in rural counties than in urban counties, particularly in the Western and Northeastern regions of the state.</li>
 
 <li>Counties with larger metropolitan areas tend to have a greater proportion of younger residents.</li>
 
