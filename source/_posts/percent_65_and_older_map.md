@@ -1,22 +1,18 @@
 ---
 template: post.html
-title: 'Which North Carolina counties have older populations?'
-date: 2019-01-28
+title: Which North Carolina counties have older populations?
+date: 2019-01-28T00:00:00.000Z
 author: 'Evan Galloway, Julie Spero'
 hide: false
 permalink: /percent_65_and_older_map
-teaserText: >-
-  What percentage of the residents in your county are 65 and older?
+teaserText: What percentage of the residents in your county are 65 and older?
 teaserImage: /images/posts/percent_65_and_older_map.png
 keywords: 'demographics, general population'
 mainClass: content
-customStyle: >- 
-    svg {
-        max-width:100%;
-        height:auto;
-    }
 ---
 <ul>
+<li> Use the slider bar below the map to scroll through years 2000 to 2037 and see the changes by county.
+
 <li>The proportion of the population who are older than 65 has grown faster in rural counties than in urban counties, particularly in the Western and North Eastern regions of the state.</li>
 
 <li>Counties with larger metropolitan areas tend to have a greater proportion of younger residents.</li>
