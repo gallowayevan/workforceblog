@@ -11,7 +11,7 @@ keywords: 'demographics, general population'
 mainClass: content
 ---
 <ul>
-<li> Use the slider bar below the map to scroll through years 2000 to 2037 and see the changes by county.
+<li> _Use the slider bar below the map to scroll through years 2000 to 2037 and see the changes by county._
 
 <li>In rural counties, the proportion of the population older than 65 has grown faster than it has in urban counties, particularly in the Western and Northeastern regions of the state.</li>
 
