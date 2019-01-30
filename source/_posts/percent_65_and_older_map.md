@@ -22,13 +22,11 @@ mainClass: content
 <div id='map'></div>
 <div id='viewof-year'></div>
 
-<script type="module">
-  // Load the Observable runtime and inspector.
-  import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
+<script type=module>
 
-  import notebook from "https://api.observablehq.com/@gallowayevan/percent-65-and-older-north-carolina.js";
-
-
+import {Runtime, Inspector} from "https://unpkg.com/@observablehq/runtime@3/dist/runtime.js";
+import define from "https://api.observablehq.com/@gallowayevan/percent-65-and-older-north-carolina.js?v=3";
+  
   const renders = {
     "viewof year": "#viewof-year",
     "map": "#map",
@@ -37,10 +35,12 @@ mainClass: content
   for (let i in renders)
     renders[i] = document.querySelector(renders[i]);
 
-  Runtime.load(notebook, (variable) => {
-    if (renders[variable.name]){
-      return new Inspector(renders[variable.name]);
-    } else {return true;}
-  });
+const runtime = new Runtime();
+const main = runtime.module(define, name => {
+if (renders[name]){
+      return new Inspector(renders[name]);
+    } 
+});
 
 </script>
+

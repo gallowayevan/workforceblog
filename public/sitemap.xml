@@ -9,6 +9,12 @@
 		
 		<url>
 			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu/md_avg_age</loc>
+			<lastmod>Tue Dec 04 2018 10:25:41 GMT-0500 (STD)</lastmod>
+		</url>
+		
+		<url>
+			<priority>0.5</priority>
 			<loc>https://nchealthworkforce.unc.edu/county_physician_beeswarm</loc>
 			<lastmod>Mon May 07 2018 20:00:00 GMT-0400 (DST)</lastmod>
 		</url>
@@ -65,6 +71,12 @@
 			<priority>0.5</priority>
 			<loc>https://nchealthworkforce.unc.edu/NCNPphysicianPAgrowth2017</loc>
 			<lastmod>Thu Oct 18 2018 15:48:01 GMT-0400 (DST)</lastmod>
+		</url>
+		
+		<url>
+			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu/percent_65_and_older_map</loc>
+			<lastmod>Sun Jan 27 2019 19:00:00 GMT-0500 (STD)</lastmod>
 		</url>
 		
 		<url>
