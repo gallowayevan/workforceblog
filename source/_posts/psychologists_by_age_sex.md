@@ -1,6 +1,6 @@
 ---
 template: post.html
-title: Psychologists are getting older, but the younger cohort is mostly female.
+title: Psychologists skew slightly older, but the younger cohort is mostly female.
 date: 2019-02-26
 author: 'Evan Galloway, Julie Spero'
 hide: true
@@ -10,10 +10,8 @@ teaserImage: /images/posts/psychologists_by_age_sex_2017.png
 keywords: 'psychologists, age, sex, population pyramid'
 mainClass: content
 ---
-<ul>
-<li> Toggle between stacked and grouped views of the data on sex.</li>
-</ul>
-<div id='viewof-layout'></div>
+
+<div id='viewof-layout' class="control"></div>
 <div id='chart'></div>
 
 <script type=module>
@@ -23,7 +21,7 @@ import define from "https://api.observablehq.com/@gallowayevan/population-struct
   
   const renders = {
     "viewof layout": "#viewof-layout",
-    "chart": "#chart",
+    "chart": "#chart"
   };
 
   for (let i in renders)
@@ -33,7 +31,9 @@ const runtime = new Runtime();
 const main = runtime.module(define, name => {
 if (renders[name]){
       return new Inspector(renders[name]);
-    } 
+    } else {
+        return true;
+    }
 });
 
 </script>

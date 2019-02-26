@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="utf-8">
-  <title>NC Health Workforce - Which North Carolina counties have older populations?</title>
+  <title>NC Health Workforce - Psychologists skew slightly older, but the younger cohort is mostly female.</title>
   <meta name="description" content="North Carolina Health Professions Data System">
   <meta name="author" content="Sheps Center">
 
@@ -40,28 +40,19 @@
    </nav>
  </div>
   <div class="content">
-    <div class="title"><h5>Which North Carolina counties have older populations?</h5></div>
+    <div class="title"><h5>Psychologists skew slightly older, but the younger cohort is mostly female.</h5></div>
   
-    <p><ul></p>
-<li> <em>Use the slider bar below the map to scroll through years 2000 to 2037 and see the changes by county.</em>
-
-<li>In rural counties, the proportion of the population older than 65 has grown faster than it has in urban counties, particularly in the Western and Northeastern regions of the state.</li>
-
-<li>Counties with larger metropolitan areas tend to have a greater proportion of younger residents.</li>
-
-<p><li>Hoke and Onslow counties are projected to have the lowest proportions of adults 65 and older in the state by 2037.  Both counties also have strong ties to large military bases (Fort Bragg and Camp LeJeune).</li>
-</ul></p>
-<div id='map'></div>
-<div id='viewof-year'></div>
+    <div id='viewof-layout' class="control"></div>
+<div id='chart'></div>
 
 <script type=module>
 
 import {Runtime, Inspector} from "https://unpkg.com/@observablehq/runtime@3/dist/runtime.js";
-import define from "https://api.observablehq.com/@gallowayevan/percent-65-and-older-north-carolina.js?v=3";
+import define from "https://api.observablehq.com/@gallowayevan/population-structure-for-north-carolina-psychologists-20.js?v=3";
 
   const renders = {
-    "viewof year": "#viewof-year",
-    "map": "#map",
+    "viewof layout": "#viewof-layout",
+    "chart": "#chart"
   };
 
   for (let i in renders)
@@ -71,7 +62,9 @@ const runtime = new Runtime();
 const main = runtime.module(define, name => {
 if (renders[name]){
       return new Inspector(renders[name]);
-    } 
+    } else {
+        return true;
+    }
 });
 
 </script>
