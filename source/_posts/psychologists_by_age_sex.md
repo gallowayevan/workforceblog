@@ -1,16 +1,21 @@
 ---
 template: post.html
-title: Psychologists skew slightly older, but the younger cohort is mostly female.
+title: Psychologists by Age and Sex
 date: 2019-02-26
-author: 'Evan Galloway, Julie Spero'
+author: 'Evan Galloway'
 hide: true
 permalink: /psychologists_by_age_sex
-teaserText: Psychologists are getting older, but the younger cohort is mostly female.
+teaserText: A quarter of psychologists are 65 or older, but a large and mostly female cohort are earlier in their careers.
 teaserImage: /images/posts/psychologists_by_age_sex_2017.png
 keywords: 'psychologists, age, sex, population pyramid'
 mainClass: content
 ---
+<ul>
 
+<li>Nearly a quarter of psychologists are 65 or older (compare this to physicians where only ~12% are 65 or older).</li>
+
+<li>60% of the psychologists who are 65 or older are male, but 70% of those younger than 65 are female.</li>
+</ul>
 <div id='viewof-layout' class="control"></div>
 <div id='chart'></div>
 
