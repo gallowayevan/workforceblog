@@ -18,8 +18,7 @@ mainClass: content
 
 <li>60% of the psychologists who are 65 or older are male, but 70% of those younger than 65 are female.</li>
 
-<li>New entrants to the profession are predominantly women.  Four out of five psychologists aged 45 or younger are female.</li>
-
+<li>New entrants to the profession are predominantly women.  Four out of five psychologists who are 45 or younger are female.</li>
 
 </ul>
 <div id='viewof-layout' class="control"></div>
@@ -36,12 +35,12 @@ import define from "https://api.observablehq.com/@gallowayevan/population-struct
   };
 
   for (let i in renders)
-    renders\[i] = document.querySelector(renders\[i]);
+    renders\\[i] = document.querySelector(renders\\[i]);
 
 const runtime = new Runtime();
 const main = runtime.module(define, name => {
-if (renders\[name]){
-      return new Inspector(renders\[name]);
+if (renders\\[name]){
+      return new Inspector(renders\\[name]);
     } else {
         return true;
     }
