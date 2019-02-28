@@ -3,7 +3,7 @@ template: post.html
 title: North Carolina Psychologists by Age and Sex
 date: 2019-02-26T00:00:00.000Z
 author: Evan Galloway
-hide: false
+hide: true
 permalink: /psychologists_by_age_sex
 teaserText: >-
   A quarter of psychologists are 65 or older, but a large and mostly female
