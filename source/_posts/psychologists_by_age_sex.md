@@ -35,12 +35,12 @@ import define from "https://api.observablehq.com/@gallowayevan/population-struct
   };
 
   for (let i in renders)
-    renders\\[i] = document.querySelector(renders\\[i]);
+    renders[i] = document.querySelector(renders[i]);
 
 const runtime = new Runtime();
 const main = runtime.module(define, name => {
-if (renders\\[name]){
-      return new Inspector(renders\\[name]);
+if (renders[name]){
+      return new Inspector(renders[name]);
     } else {
         return true;
     }
