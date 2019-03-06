@@ -3,7 +3,7 @@ template: post.html
 title: Distribution of Psychiatrists Across North Carolina
 date: 2019-03-06T19:41:33.375Z
 author: Evan Galloway
-hide: true
+hide: false
 permalink: /psychiatry_fte_2017
 teaserText: Psychiatrists are concentrated in a handful of counties in North Carolina.
 teaserImage: /images/posts/psych_fte.png
