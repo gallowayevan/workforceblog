@@ -10,4 +10,15 @@ teaserImage: /images/posts/ansonrnsdeclining.jpg
 keywords: 'nurse, nursing, anson, county spotlight, race, diversity'
 mainClass: blog
 ---
-* Anson County is
+* In 2014, the 152-bed hospital in Anson County closed and was replaced with Atrium Health Anson, a co-located 15-bed emergency department and primary care physician office.
+
+![](/images/posts/ansoncomap.jpg)
+
+* Between 2014 and 2017, Anson County saw a 4% decrease in population, (-1,008, n=25,460 in 2017) and a 24% decrease in the number of RNs working in the county.
+* In 2017, the number of RNs per 10,000 population was roughly a third of the state rate.
+
+![](/images/posts/ansonrnsdeclining.jpg)
+
+* 49% of Anson's population identifies as black, compared to 13% of Anson's nursing workforce.
+
+![](/images/posts/ansonrnsdiversity.jpg)
