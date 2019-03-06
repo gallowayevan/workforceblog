@@ -15,4 +15,4 @@ mainClass: blog
 * Granville County, home to one of the three state psychiatric hospitals, is also an outlier.
 * Unlike our [health professional supply map](https://nchealthworkforce.unc.edu/supply/), which assigns heath professionals to counties based on primary practice location, this map accounts for psychiatrists who practice in multiple counties. For instance, on this map, 10 counties appear to have no psychiatrists, while on the primary practice location map, 28 counties appear to have no psychiatrists.
 
-![Psychiatry FTE per 10,000 Population, North Carolina, 2017](/images/posts/psych_fte.png)
+![Psychiatrist Full-time Equivalents per 10,000 Population, North Carolina, 2017](/images/posts/psych_fte.png)
