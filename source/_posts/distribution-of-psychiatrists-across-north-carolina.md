@@ -5,7 +5,7 @@ date: 2019-03-06T19:41:33.375Z
 author: Evan Galloway
 hide: false
 permalink: /psychiatry_fte_2017
-teaserText: Psychiatrists are concentrated in a handful of counties in North Carolina.
+teaserText: Where are psychiatrists practicing in North Carolina?
 teaserImage: /images/posts/psych_fte.png
 keywords: 'psychiatrists, physicians, fte'
 mainClass: blog
