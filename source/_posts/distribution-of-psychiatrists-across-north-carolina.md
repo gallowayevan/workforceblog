@@ -10,7 +10,7 @@ teaserImage: /images/posts/psych_fte.png
 keywords: 'psychiatrists, physicians, fte'
 mainClass: blog
 ---
-* North Carolina has 1.2 psychiatric ftes (full-time equivalents) per 10,000 population.
+* North Carolina has 1.2 psychiatric FTEs (full-time equivalents) per 10,000 population.
 * Unlike our [health professional supply map](https://nchealthworkforce.unc.edu/supply/), this map accounts for psychiatrists who practice in multiple locations.
 
 ![Psychiatry FTE per 10,000 Population, North Carolina, 2017](/images/posts/psych_fte.png)
