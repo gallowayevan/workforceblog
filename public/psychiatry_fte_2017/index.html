@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="utf-8">
-  <title>NC Health Workforce - North Carolina Psychologists by Age and Sex</title>
+  <title>NC Health Workforce - Distribution of Psychiatrists Across North Carolina</title>
   <meta name="description" content="North Carolina Health Professions Data System">
   <meta name="author" content="Sheps Center">
 
@@ -39,47 +39,19 @@
                  </div>
    </nav>
  </div>
-  <div class="content">
-    <div class="title"><h5>North Carolina Psychologists by Age and Sex</h5></div>
+  <div class="blog">
+    <div class="title"><h5>Distribution of Psychiatrists Across North Carolina</h5></div>
   
     <ul>
-
-<li>Nearly a quarter of psychologists are 65 or older (compare this to physicians where only ~12% are 65 or older).</li>
-
-<li>60% of the psychologists who are 65 or older are male, but 70% of those younger than 65 are female.</li>
-
-<li>New entrants to the profession are predominantly women.  Four out of five psychologists who are 45 or younger are female.</li>
-
-<p></ul></p>
-<div id='viewof-layout' class="control"></div>
-<div id='chart'></div>
-
-<script type=module>
-
-import {Runtime, Inspector} from "https://unpkg.com/@observablehq/runtime@3/dist/runtime.js";
-import define from "https://api.observablehq.com/@gallowayevan/population-structure-for-north-carolina-psychologists-20.js?v=3";
-
-  const renders = {
-    "viewof layout": "#viewof-layout",
-    "chart": "#chart"
-  };
-
-  for (let i in renders)
-    renders[i] = document.querySelector(renders[i]);
-
-const runtime = new Runtime();
-const main = runtime.module(define, name => {
-if (renders[name]){
-      return new Inspector(renders[name]);
-    } else {
-        return true;
-    }
-});
-
-</script>
+<li>North Carolina has 1.2 psychiatrist FTEs (full-time equivalents) per 10,000 population.</li>
+<li>Orange County has 9.8% of the psychiatrist FTEs in North Carolina, but only 1.4% of the population.</li>
+<li>Granville County, home to one of the three state psychiatric hospitals, is also an outlier.</li>
+<li>Unlike our <a href="https://nchealthworkforce.unc.edu/supply/">health professional supply map</a>, which assigns heath professionals to counties based on primary practice location, this map accounts for psychiatrists who practice in multiple counties. For instance, on this map, 10 counties appear to have no psychiatrists, while on the primary practice location map, 28 counties appear to have no psychiatrists.</li>
+</ul>
+<p><a href="/images/posts/psych_fte.png"> <img src="/images/posts/psych_fte.png" alt="Psychiatrist Full-time Equivalents per 10,000 Population, North Carolina, 2017"></a></p>
 
     
-     
+    <p class="byline">By Evan Galloway | Wed Mar 06 2019</p> 
   </div>
 
 
