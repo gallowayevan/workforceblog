@@ -16,7 +16,7 @@ mainClass: blog
 ---
 * **53%** (n=1,135/2,157) of physicians who completed an **AHEC residency** between 1997-2017 were practicing in NC in 2017
 * **41%** (n=4,561/11,233) of physicians who completed a **non-AHEC residency** between 1997-2017 were practicing in NC in 2017
-* Compared to non-AHEC residency graduates, a larger percentage of **family medicine, general internal medicine, and pediatrics*** physicians who completed an AHEC residency were practicing in NC in 2017 
+* Compared to non-AHEC residency graduates, a larger percentage of **family medicine, general internal medicine, and pediatrics*** physicians who graduated from an AHEC residency practiced in NC in 2017 
 
 ![](/images/posts/ahecgme_amamf_2017_withlogo.png)
 
