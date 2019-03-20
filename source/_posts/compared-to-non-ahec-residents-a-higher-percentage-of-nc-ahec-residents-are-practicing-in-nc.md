@@ -5,7 +5,7 @@ title: >-
   Practicing in NC
 date: 2019-03-18T16:58:26.767Z
 author: Julie Spero
-hide: true
+hide: false
 permalink: /AHEC_resident_outcomes_2017
 teaserText: >-
   Compared to non-AHEC residents, a higher percentage of NC AHEC residents are
