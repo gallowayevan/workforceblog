@@ -10,18 +10,15 @@ permalink: /AHEC_resident_outcomes_2017
 teaserText: >-
   Compared to non-AHEC residents, a higher percentage of NC AHEC residents are
   practicing in NC
-teaserImage: /images/posts/2017ahecresidencyoutcomes.jpg
+teaserImage: /images/posts/2017_ahec_gme_amamf-01.png
 keywords: 'AHEC, Physician, resident'
 mainClass: blog
 ---
 * **53%** (n=1,135/2,157) of physicians who completed an **AHEC residency** between 1997-2017 were practicing in NC in 2017
 * **41%** (n=4,561/11,233) of physicians who completed a **non-AHEC residency** between 1997-2017 were practicing in NC in 2017
-
-
-
 * For Family Medicine, General Internal Medicine, and Pediatrics*, a higher percentage of NC AHEC residents from the past 30 years were in practice in NC in 2017
 
-![](/images/posts/2017ahecresidencyoutcomes.jpg)
+![](/images/posts/2017_ahec_gme_amamf-01.png)
 
 Notes: Data include active physicians in the 2017 AMA Physician Masterfile who reported completing residency training in North Carolina between 1997 and 2017. The AMA Physician Masterfile used for this analysis includes data on residency institution (ex. UNC Hospitals), but not residency program (ex. UNC Hospitals Internal Medicine Residency Program).  We assumed in the reported counts that, for example, a physician who graduated from an AHEC residency and reported a practice specialty of internal medicine completed an AHEC internal medicine residency.  However, the AMA Masterfile data does not specify which residency program physicians completed and these counts may not align with total counts of graduates in each residency program.  Furthermore, data do not include NC residency graduates from the time period that no longer appear in the AMA Masterfile or who are inactive (e.g. dead, no longer practice medicine, etc.).
 
@@ -29,4 +26,4 @@ Specialty categories were defined as follows: Family Medicine (Family Medicine, 
 
 **_AHEC Residencies_ **are defined as a residency housed at an AHEC Center or a Rural AHEC site, including: Charlotte AHEC, Greensboro AHEC, Mountain AHEC, Southeast AHEC, and Southern Regional AHEC.
 
-**_Non-AHEC Residencies_** include all other NC residencies.  Wake AHEC has roughly 50 residents on site, but all are residents on rotation from UNC Health Care and are considered UNC residents.  AHEC provides a small amount of funding for primary care and psychiatry residencies at Duke University Medical Center, East Carolina University/Vidant Medical Center, UNC Health Care, and Wake Forest Baptist Medical Center.  However, AHEC funding specific to residency training at these institutions is insubstantial relative to non-AHEC funding and is unlikely to influence program outcomes.
+_**Non-AHEC Residencies**_ include all other NC residencies.  Wake AHEC has roughly 50 residents on site, but all are residents on rotation from UNC Health Care and are considered UNC residents.  AHEC provides a small amount of funding for primary care and psychiatry residencies at Duke University Medical Center, East Carolina University/Vidant Medical Center, UNC Health Care, and Wake Forest Baptist Medical Center.  However, AHEC funding specific to residency training at these institutions is insubstantial relative to non-AHEC funding and is unlikely to influence program outcomes.
