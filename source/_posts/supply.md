@@ -620,6 +620,8 @@ mainClass: content
   </details>
   </details>
 
-<script src='/supply/hpds.js'></script>
+<script src='/supply/chunk-vendors.js'></script>
+<script src='/supply/app.js'></script>
+
 
 
