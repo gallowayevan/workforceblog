@@ -235,7 +235,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   th,
   td {
-    padding: 12px 15px;
+    padding: 5px 7px;
     text-align: left;
     border-bottom: 1px solid #E1E1E1; }
   th:first-child,
@@ -244,6 +244,16 @@
   th:last-child,
   td:last-child {
     padding-right: 0; }
+   
+thead th.column-type-number,
+tbody td.cell-type-number {
+  text-align:right;
+}
+
+tbody td.cell-type-number {
+  font-family: menlo,consolas,monaco,monospace;
+  font-size: 90%;
+}
   
   
   /* Spacing
