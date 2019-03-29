@@ -149,6 +149,42 @@ function cleanCommaDelimited(current) {
   return split;
 }
 
+// Modify index.html to have default posts without js
+
+  const indexStr = fs.readFileSync(`${source}/index.html`, 'utf8')
+  const indexTemplate = d => eval('`' + indexStr + '`')
+
+  const liveSearchIndex = JSON.parse(searchIndex).map(function (d) {
+    if (d.keywords) d.keywords = cleanCommaDelimited(d.keywords);
+    if (d.author) d.author = cleanCommaDelimited(d.author);
+    if (d.date) d.date = new Date(d.date); 
+
+    return d;
+  })
+  const defaultResults = 36;
+  const resultsSorted = liveSearchIndex.sort(function (a, b) { return b.date - a.date }).slice(0, defaultResults);
+  const searchResultsFormatted = resultsSorted.map(thumbnailTemplate).join('');
+  fs.writeFileSync(`${public}/index.html`, indexTemplate(searchResultsFormatted))
+
+  function thumbnailTemplate(d) {
+    return `<div class="thumb-wrapper thumb-wrapper-small">
+            <a aria-label="${d.title}" href=${d.permalink}>
+              <div style="padding-top: 62.5%; background-image: url('${d.teaserThumbnail}'); background-size: cover;"></div>
+            </a>
+            <div class="thumb-title-wrapper">
+              <a class="thumb-title-link" href="${d.permalink}">
+                <div title="${d.title}" class="thumb-title">${d.teaserText}</div>
+              </a>
+            </div>
+          </div>`
+  }
+
+  //Parse and write posts
+var posts = readdirAbs(`${source}/_posts`).map(parsePost)
+fs.writeFileSync(public + '/rss.xml', templates['rss.xml'](posts))
+fs.writeFileSync(public + '/sitemap.xml', templates['sitemap.xml'](posts))
+
+
 function writePost(post) {
   var dir = public + post.permalink
   if (!fs.existsSync(dir)) execSync(`mkdir -p ${dir}`)
