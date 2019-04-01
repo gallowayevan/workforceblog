@@ -12,7 +12,12 @@ teaserImage: /images/posts/metro_nonmetro_rate_chart.png
 keywords: 'health professions, rural, nonmetro, rate, total'
 mainClass: blog
 ---
+- Licensed nurse practitioner is one of the few professions where the rate per 10,000 population is higher in rural counties than in metro counties.
+- Physicians have one of the biggest gaps between metro and rural rates. This difference in rates is driven by many factors, including the presence of the UNC School of Medicine and the UNC Medical Center in a metro county with a relatively low population (Orange).
+- The chart uses a log scale, which helps make relative differences clearer. For instance, the difference between metro and nonmetro for registered nurses is 32.79 per 10,000 population, which is the largest gap among these health professions; however, that gap only seems large relative to the other professions because there are so many more registered nurses.
+
 ![null](/images/posts/metro_nonmetro_rate_chart.png)
+
 <div>
         <table >
                   <thead>
