@@ -18,7 +18,3 @@ mainClass: blog
 * In 2017, the number of RNs per 10,000 population was roughly a third of the state rate.
 
 ![](/images/posts/ansonrnsdeclining.jpg)
-
-* 49% of Anson's population identifies as black, compared to 13% of Anson's nursing workforce.
-
-![](/images/posts/ansonrnsdiversity.jpg)
