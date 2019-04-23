@@ -29,7 +29,7 @@
     }]
   };
 
-  fetch('searchIndex.json')
+  fetch('/searchIndex.json')
     .then(function (response) {
       return response.json();
     })
@@ -49,7 +49,7 @@
 
       const thumbnailBox = document.querySelector('.thumbnails');
       const resultsSorted = searchIndex.sort(function (a, b) { return b.date - a.date }).slice(0, defaultResults);
-      // thumbnailBox.innerHTML = resultsSorted.map(thumbnailTemplate).join('');
+      if(thumbnailBox.innerHTML == '') thumbnailBox.innerHTML = resultsSorted.map(thumbnailTemplate).join('');
 
       for (var i = 0; i < searchBoxes.length; i++) {
         searchBoxes[i].addEventListener('keyup', search, false);
