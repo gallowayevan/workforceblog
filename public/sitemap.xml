@@ -57,6 +57,12 @@
 		
 		<url>
 			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu/licensing-boards</loc>
+			<lastmod>Sun May 05 2019 19:00:00 GMT-0500 (GMT-05:00)</lastmod>
+		</url>
+		
+		<url>
+			<priority>0.5</priority>
 			<loc>https://nchealthworkforce.unc.edu/dentistchangemap13_17</loc>
 			<lastmod>Sun Oct 07 2018 19:00:00 GMT-0500 (GMT-05:00)</lastmod>
 		</url>
