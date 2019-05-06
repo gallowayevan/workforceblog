@@ -22,6 +22,11 @@ mainClass: content
   <p>
     Data include active, licensed health professionals practicing in North Carolina as of October 31 of each data year.  County counts are based on primary practice location.  Some providers may practice in additional locations not shown in primary practice location counts.
   </p>
+  <p>Data files have been maintained since 1979 for most professions, with the exception of certified nurse midwives, which are available starting in 1984, respiratory therapists (2004), and occupational therapists and occupational therapy
+assistants (2006). Available data include name, business address, birth year, sex, race, information on basic
+professional education (i.e., school name and state, year graduated, and degree), specialty, activity status, form of
+employment, and practice setting. Data are available upon request. Requests for
+identifiable data must be approved by the respective licensing board. For more information on making requests, <a href="mailto:nchealthworkforce@unc.edu?subject=Data%20Request" target="_self" aria-label="Email Us.">email us</a>. For information on our fee structure, <a href="http://www.shepscenter.unc.edu/programs-projects/workforce/projects/hpds/pricing-structure/">click here</a>.</p>
   </details>
       <details>
           <summary class="summary-header">Note on Underrepresented Minorities</summary>
@@ -30,6 +35,15 @@ mainClass: content
     <li>Spero JC. Does North Carolina’s health care workforce reflect the diversity of the state’s population? NC Med J. 2016; 77(2):141-145.</li>
     <li>U.S. Department of Health and Human Services, Health Resources and Services Administration, National Center for Health Workforce Analysis. Sex, Race, and Ethnic Diversity of U.S. Health Occupations (2010-2012), Rockville, Maryland; 2015.</li>
   </ol>
+  </details>
+  <details>
+          <summary class="summary-header">What is a Federal Physician?</summary>
+  <p>We typically exclude federal physicians in our counts of physicians in North Carolina. A federal physician is a physician whose principal employer is the federal government. This includes physicians in the
+armed services, US Public Health Service, Indian Health Service, and the Department of Veterans Affairs.
+Prior to 1994: Physician whose principal setting of primary practice is a health facility on a military
+installation, in a V.A. hospital, in the Public Health Service, in the Indian Health Service, or in another federal
+health facility. Federally-funded primary health care clinics serving the private sector are not considered a
+federal facility.</p>
   </details>
   <details>
   <summary class="summary-header">HPDS Physician and Physician Assistant Primary Area of Practice Information</summary>

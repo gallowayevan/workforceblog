@@ -51,6 +51,12 @@
 		
 		<url>
 			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu/hpds-history</loc>
+			<lastmod>Sun May 05 2019 19:00:00 GMT-0500 (GMT-05:00)</lastmod>
+		</url>
+		
+		<url>
+			<priority>0.5</priority>
 			<loc>https://nchealthworkforce.unc.edu/manufacturingjobs</loc>
 			<lastmod>Tue Apr 10 2018 10:52:47 GMT-0500 (GMT-05:00)</lastmod>
 		</url>
