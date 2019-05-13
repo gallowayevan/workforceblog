@@ -20,4 +20,4 @@ mainClass: blog
 * The NP workforce has grown the most rapidly of the three.
 * For more background and information, see [this article](http://www.ncmedicaljournal.com/content/80/3/186.full) in the North Carolina Medical Journal.
 
-[Growth of NPs, PAs, and Physicians Since the Year 2000](/images/posts/np_pa_growth_color.png)
+![Growth of NPs, PAs, and Physicians Since the Year 2000](/images/posts/np_pa_growth_color.png)
