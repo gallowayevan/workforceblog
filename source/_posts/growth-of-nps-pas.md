@@ -3,7 +3,7 @@ template: post.html
 title: >-
   Since 2000, Growth of North Carolina's NPs and PAs Has Outpaced That
   of Physicians.
-date: 2018-05-13
+date: 2019-05-13
 author: Julie Spero, Evan Galloway
 hide: true
 permalink: /growth-of-nps-pas
