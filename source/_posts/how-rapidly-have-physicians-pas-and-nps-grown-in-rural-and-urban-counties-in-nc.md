@@ -5,7 +5,7 @@ title: >-
   of Physicians.
 date: 2018-10-24T14:04:23.517Z
 author: Julie Spero
-hide: false
+hide: true
 permalink: /physician_np_pa_growth_rural2017
 teaserText: >-
   How rapidly have physicians, PAs, and NPs grown in rural and urban counties in

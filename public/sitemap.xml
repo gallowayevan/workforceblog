@@ -39,6 +39,12 @@
 		
 		<url>
 			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu/growth-of-nps-pas</loc>
+			<lastmod>Sat May 12 2018 19:00:00 GMT-0500 (GMT-05:00)</lastmod>
+		</url>
+		
+		<url>
+			<priority>0.5</priority>
 			<loc>https://nchealthworkforce.unc.edu/help</loc>
 			<lastmod>Wed Jun 13 2018 19:00:00 GMT-0500 (GMT-05:00)</lastmod>
 		</url>
