@@ -5,7 +5,7 @@ title: >-
   Growing Rapidly
 date: 2018-10-18T19:48:01.856Z
 author: Julie Spero
-hide: true
+hide: false
 permalink: /NCNPphysicianPAgrowth2017
 teaserText: >-
   NC's nurse practitioner and physician assistant workforces are growing
