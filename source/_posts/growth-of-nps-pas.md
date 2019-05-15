@@ -5,7 +5,7 @@ title: >-
   Assistants (PA) Has Outpaced That of Physicians.
 date: 2019-05-13T00:00:00.000Z
 author: 'Julie Spero, Evan Galloway'
-hide: true
+hide: false
 permalink: /growth-of-nps-pas
 teaserText: >-
   How rapidly have physicians, PAs, and NPs grown in rural and urban counties in
