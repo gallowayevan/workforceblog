@@ -40,7 +40,7 @@
 		<url>
 			<priority>0.5</priority>
 			<loc>https://nchealthworkforce.unc.edu/growth-of-nps-pas</loc>
-			<lastmod>Sat May 12 2018 19:00:00 GMT-0500 (GMT-05:00)</lastmod>
+			<lastmod>Sun May 12 2019 19:00:00 GMT-0500 (GMT-05:00)</lastmod>
 		</url>
 		
 		<url>
@@ -81,6 +81,12 @@
 		
 		<url>
 			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu/mfm_fte_map_2017</loc>
+			<lastmod>Wed May 29 2019 19:00:00 GMT-0500 (GMT-05:00)</lastmod>
+		</url>
+		
+		<url>
+			<priority>0.5</priority>
 			<loc>https://nchealthworkforce.unc.edu/NCMedSchoolRetention2016</loc>
 			<lastmod>Tue Nov 20 2018 11:05:38 GMT-0500 (GMT-05:00)</lastmod>
 		</url>
@@ -113,6 +119,12 @@
 			<priority>0.5</priority>
 			<loc>https://nchealthworkforce.unc.edu/NCNPphysicianPAgrowth2017</loc>
 			<lastmod>Thu Oct 18 2018 14:48:01 GMT-0500 (GMT-05:00)</lastmod>
+		</url>
+		
+		<url>
+			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu/npandpaschools</loc>
+			<lastmod>Thu May 23 2019 13:53:47 GMT-0500 (GMT-05:00)</lastmod>
 		</url>
 		
 		<url>
