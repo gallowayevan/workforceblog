@@ -3,7 +3,7 @@ template: post.html
 title: 'Maternal & Fetal Medicine FTEs per 10,000 Population By County'
 date: 2019-05-30T00:00:00.000Z
 author: Evan Galloway
-hide: true
+hide: false
 permalink: /mfm_fte_map_2017
 teaserText: >-
   Maternal and Fetal Medicine Physicians are Concentrated in Metropolitan
