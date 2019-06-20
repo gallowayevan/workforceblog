@@ -5,7 +5,7 @@ title: >-
   counties.
 date: 2019-06-20T14:47:04.489Z
 author: 'Julie Spero, Evan Galloway'
-hide: true
+hide: false
 permalink: /age_dentists_metro_2018
 teaserText: There are more younger dentists than older dentists in urban NC counties.
 teaserImage: /images/posts/age_density_count_dds_2018.png
