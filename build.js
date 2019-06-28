@@ -65,8 +65,8 @@ function parsePost(path) {
 
     const authorArray = cleanCommaDelimited(post.author);
 
-       const authorString = authorArray.length == 1 ? authorArray[0] :
-       authorArray.slice(0,-1).join(", ") + " and " + authorArray[authorArray.length - 1];
+    const authorString = authorArray.length == 1 ? authorArray[0] :
+      authorArray.slice(0, -1).join(", ") + " and " + authorArray[authorArray.length - 1];
 
     post.authorString = authorString;
   }
@@ -81,11 +81,11 @@ function parsePost(path) {
 //Create thumbnails
 const sharp = require('sharp');
 
-posts.forEach(function(post){
+posts.forEach(function (post) {
   if (post.hasOwnProperty('teaserImage')) {
     //Make new filename with jpg
-    const filename = path.parse(post.teaserImage).base.slice(0,-3) + "jpg";
-    
+    const filename = path.parse(post.teaserImage).base.slice(0, -3) + "jpg";
+
     //Set filename in post object so that it can be rendered in the homepage template.
     post.teaserThumbnail = "/images/thumbnails/" + filename;
 
@@ -93,16 +93,16 @@ posts.forEach(function(post){
     // modified date if there is one. If there is no thumbnail or if the thumbnail's modified
     // date is earlier than the teaserImage's, then create a new thumbmail
     const unprocessedImageStats = fs.statSync(source + post.teaserImage);
-    fs.stat(source + "/images/thumbnails/" +  filename, function(err, processedImageStats) {
-      if(err || unprocessedImageStats.mtimeMs > processedImageStats.mtimeMs) {
-        sharp(source + post.teaserImage).resize(300).toFile(source + "/images/thumbnails/" +  filename)
-        .then(()=>{
-          fs.copyFile(source + "/images/thumbnails/" +  filename, public + "/images/thumbnails/" +  filename, (err) => {if (err) throw err;});
-        })  
+    fs.stat(source + "/images/thumbnails/" + filename, function (err, processedImageStats) {
+      if (err || unprocessedImageStats.mtimeMs > processedImageStats.mtimeMs) {
+        sharp(source + post.teaserImage).resize(300).toFile(source + "/images/thumbnails/" + filename)
+          .then(() => {
+            fs.copyFile(source + "/images/thumbnails/" + filename, public + "/images/thumbnails/" + filename, (err) => { if (err) throw err; });
+          })
       } else {
         // console.log(post.title + " already has a thumbnail.")
       }
-    }) 
+    })
   } else {
     // console.log(post.title + " is missing teaserImage.")
   }
@@ -151,23 +151,24 @@ function cleanCommaDelimited(current) {
 
 // Modify index.html to have default posts without js
 
-  const indexStr = fs.readFileSync(`${source}/index.html`, 'utf8')
-  const indexTemplate = d => eval('`' + indexStr + '`')
+const indexStr = fs.readFileSync(`${source}/index.html`, 'utf8')
+const indexTemplate = d => eval('`' + indexStr + '`')
 
-  const liveSearchIndex = JSON.parse(searchIndex).map(function (d) {
-    if (d.keywords) d.keywords = cleanCommaDelimited(d.keywords);
-    if (d.author) d.author = cleanCommaDelimited(d.author);
-    if (d.date) d.date = new Date(d.date); 
+const liveSearchIndex = JSON.parse(searchIndex).map(function (d) {
+  if (d.keywords) d.keywords = cleanCommaDelimited(d.keywords);
+  if (d.author) d.author = cleanCommaDelimited(d.author);
+  if (d.date) d.date = new Date(d.date);
 
-    return d;
-  })
-  const defaultResults = 36;
-  const resultsSorted = liveSearchIndex.sort(function (a, b) { return b.date - a.date }).slice(0, defaultResults);
-  const searchResultsFormatted = resultsSorted.map(thumbnailTemplate).join('');
-  fs.writeFileSync(`${public}/index.html`, indexTemplate(searchResultsFormatted))
+  return d;
+})
 
-  function thumbnailTemplate(d) {
-    return `<div class="thumb-wrapper thumb-wrapper-small">
+const defaultResults = 36;
+const resultsSorted = liveSearchIndex.sort(function (a, b) { return b.date - a.date }).slice(0, defaultResults);
+const searchResultsFormatted = resultsSorted.map(thumbnailTemplate).join('');
+fs.writeFileSync(`${public}/index.html`, indexTemplate(searchResultsFormatted))
+
+function thumbnailTemplate(d) {
+  return `<div class="thumb-wrapper thumb-wrapper-small">
             <a aria-label="${d.title}" href=${d.permalink}>
               <div style="padding-top: 62.5%; background-image: url('${d.teaserThumbnail}'); background-size: cover;"></div>
             </a>
@@ -177,9 +178,9 @@ function cleanCommaDelimited(current) {
               </a>
             </div>
           </div>`
-  }
+}
 
-  //Parse and write posts
+//Parse and write posts
 var posts = readdirAbs(`${source}/_posts`).map(parsePost)
 fs.writeFileSync(public + '/rss.xml', templates['rss.xml'](posts))
 fs.writeFileSync(public + '/sitemap.xml', templates['sitemap.xml'](posts))
