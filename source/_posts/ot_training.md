@@ -6,7 +6,7 @@ author: 'Evan Galloway, Julie Spero'
 hide: false
 permalink: /ot_training
 teaserText: 37% of NC occupational therapists were trained in state. What about the rest?
-teaserImage: /images/posts/training_map_relative.png
+teaserImage: /images/posts/training_map_counts.png
 keywords: 'occupational therapists, training, education'
 ---
 * Occupational therapists (OTs) treat patients with physical, developmental, or cognitive disabilities, focusing on the patient's ability to perform activities for daily life. OTs work with patients in homes, schools, workplaces, and healthcare facilities. 
