@@ -12,7 +12,7 @@ keywords: physician, international medical graduate, img, growth, hospitalist
 mainClass: blog
 ---
 * International Medical Graduates (IMGs) are physicians who received their medical education outside of the United States, Puerto Rico, or Canada. As of 2018, 15.5% of North Carolina physicians are IMGs.
-* The number of IMGs in North Carolina has more than doubled since 2000, but the number being educated in the Caribbean has quintupled. Of course, most of the North Carolina physicians educated in the Caribbean are United States citizens.
+* The number of IMGs in North Carolina has more than doubled since 2000, but the number being educated in the Caribbean has quintupled. Most of the physicians educated in the Caribbean are United States citizens.
 * India the is largest source of IMGs for North Carolina.
 
 <table class="pretty-table normal">
