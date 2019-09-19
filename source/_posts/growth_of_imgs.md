@@ -65,6 +65,6 @@ mainClass: blog
 </table>
 
 * Different physician areas of practice have different proportions of IMGs. In 2018, IMGs comprised 43% of the hospitalists in North Carolina, but only made up 12% of the family medicine physician workforce.
-* 30% of North Carolina IMGs practice in primary care, which is nearly the same percentage as graduates of US medical schools (29%). This contrasts with national data implying that IMGs are more likely to enter primacy care practice.
+* 30% of North Carolina IMGs practice in primary care, which is nearly the same percentage as graduates of US medical schools (29%). This contrasts with national data implying that IMGs are more likely to enter primary care practice.
 
 ![Over 40% of hospitalists are international medical graduates.](/images/posts/imgs_by_specialty_stacked_bar_clean_title.png)
