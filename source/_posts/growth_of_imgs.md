@@ -3,7 +3,7 @@ template: post.html
 title: Where do NC’s international medical graduates come from?
 date: 2019-09-13
 author: 'Evan Galloway'
-hide: true
+hide: false
 permalink: /growth_of_imgs
 teaserText: >-
   Where do NC’s international medical graduates come from?
@@ -12,7 +12,7 @@ keywords: physician, international medical graduate, img, growth, hospitalist
 mainClass: blog
 ---
 * International Medical Graduates (IMGs) are physicians who received their medical education outside of the United States, Puerto Rico, or Canada. As of 2018, 15.5% of North Carolina physicians are IMGs. This is below the [national median of 19.1%](https://www.aamc.org/data/workforce/reports/484392/2017-state-physician-workforce-data-report.html).
-* The number of IMGs in North Carolina has more than doubled since 2000. IMGs from Pakistan have tripled, and IMGs from Nigeria have more than tripled. While North Carolina in 2018 had six times the number of IMGs educated in the Caribbean as it did in 2000, a majority of these physicians are United States citizens who sought medical education outside the US. 
+* The number of IMGs in North Carolina has more than doubled since 2000. IMGs from Pakistan have tripled, and IMGs from Nigeria have more than tripled. In 2018, North Carolina had six times the number of IMGs educated in the Caribbean as it did in 2000, but a majority of these physicians are United States citizens who sought medical education outside the US. 
 * India is the largest source of IMGs for North Carolina.
 
 <table align="center">
