@@ -7,7 +7,7 @@ hide: false
 permalink: /growth_of_imgs
 teaserText: >-
   Where do NC’s international medical graduates come from?
-teaserImage: /images/posts/imgs_by_specialty_stacked_bar.png
+teaserImage: /images/posts/imgs_by_specialty_stacked_bar_clean_title.png
 keywords: physician, international medical graduate, img, growth, hospitalist
 mainClass: blog
 ---
@@ -26,7 +26,7 @@ mainClass: blog
       <th data-key="2018" class="column-type-number ">
          2018
       </th>
-      <th data-key="% Change" class="column-type-number ">
+      <th data-key="change" class="column-type-number ">
          Change
       </th>
    </thead>
