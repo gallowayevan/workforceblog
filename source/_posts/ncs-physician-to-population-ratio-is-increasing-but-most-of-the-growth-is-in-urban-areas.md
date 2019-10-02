@@ -4,7 +4,7 @@ title: >-
   NC's physician-to-population ratio is increasing, but most of the growth is in
   urban areas.
 date: 2019-10-02
-author: Julie Spero
+author: Julie Spero, Evan Galloway
 hide: false
 permalink: /physician_growth_metro
 teaserText: >-
