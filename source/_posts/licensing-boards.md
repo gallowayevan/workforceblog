@@ -74,7 +74,7 @@ Web: <strong><a href="http://www.ncoptometry.org" target="_blank">www.ncoptometr
 <p><strong>NC State Board of Physical Therapy Examiners</strong><br />
 18 West Colony Place, Suite 140<br />
 Durham, NC 27705<br />
-Mr. Kathy Arney, PT, Executive Director<br />
+Ms. Kathy Arney, PT, Executive Director<br />
 Email for data requests: <a href="&#x6d;a&#x69;&#108;t&#x6f;&#58;&#x6b;&#97;r&#x6e;&#101;&#x79;&#64;n&#x63;&#112;&#x74;&#x62;o&#x61;&#114;d&#x2e;&#111;&#x72;&#103;">&#x6b;a&#x72;&#110;e&#x79;&#64;&#x6e;&#x63;p&#x74;&#98;o&#x61;&#114;&#x64;&#46;o&#x72;&#103;</a><br />
 Phone: (919) 490-6393 or 1-800-800-8982<br />
 Fax: (919) 490-5106<br />
