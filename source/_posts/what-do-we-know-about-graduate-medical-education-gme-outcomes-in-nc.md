@@ -4,7 +4,7 @@ title: What do we know about graduate medical education (GME) outcomes in NC?
 date: 2019-10-25T16:41:27.534Z
 author: Julie Spero
 hide: false
-permalink: /NC_GME_Outcomes_Summary
+permalink: /nc_gme_outcomes_summary
 teaserText: What do we know about NC's GME outcomes?
 teaserImage: /images/posts/cohortgmeretentionbyspec.jpg
 keywords: 'GME, graduate medical education, AHEC'
