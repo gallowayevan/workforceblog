@@ -24,7 +24,7 @@ mainClass: content
 
 <script type=module>
 
-import {Runtime, Inspector} from "https://unpkg.com/@observablehq/runtime@3/dist/runtime.js";
+import {Runtime, Inspector} from "https://unpkg.com/@observablehq/runtime@4/dist/runtime.js";
 import define from "https://api.observablehq.com/@gallowayevan/percent-65-and-older-north-carolina.js?v=3";
   
   const renders = {
