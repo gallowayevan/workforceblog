@@ -25,7 +25,7 @@ Web: <strong><a href="http://www.ncbon.org" target="_blank">www.ncbon.org</a></s
 <p><strong>NC State Board of Dental Examiners</strong><br />
 2000 Perimeter Park Drive, Suite 160<br />
 Morrisville, NC 27560<br />
-Mr. Bobby D. White, Chief Operations Officer<br />
+Mr. Bobby D. White, Chief Executive Officer<br />
 Email for data requests: <a href="&#x6d;&#x61;&#x69;&#x6c;&#116;&#111;&#58;&#105;nfo&#x40;&#x6e;&#x63;&#x64;&#x65;&#110;&#116;&#97;lbo&#x61;&#x72;&#x64;&#x2e;&#x6f;&#114;&#103;">&#x69;&#x6e;&#102;o&#x40;&#x6e;&#99;de&#x6e;&#x74;&#97;l&#x62;&#x6f;&#97;&#114;d&#x2e;&#x6f;&#114;g</a><br />
 Phone: (919) 678-8223<br />
 Fax (919) 678-8472<br />
