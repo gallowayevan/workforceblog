@@ -16,3 +16,5 @@ mainClass: blog
 * Relative to white patients, black patients report worse communication and lower shared decision-making with physicians. \[4] Racial concordance, when patients and physicians identify as the same race, is associated with better patient-physician communication.
 * In 2018, 21% of NC's population identified as black or African American, compared to 13% of the state's obstetric delivery providers.
 * Only five black family medicine physicians reported providing routine obstetric delivery services in 2018.
+
+![](/images/posts/ObsProvidersChart5Feb2020.png)
