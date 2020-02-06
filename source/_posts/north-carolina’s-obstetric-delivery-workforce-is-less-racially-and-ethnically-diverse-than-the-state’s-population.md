@@ -9,7 +9,7 @@ hide: true
 permalink: /obstetric_provider_race
 teaserText: How diverse is NC's obstetric delivery workforce?
 teaserImage: /images/posts/ObsProvidersChart5Feb2020.png
-keywords: 'physicians, certified nurse midwife, cnm, obstetric, pregnant'
+keywords: 'physicians, certified nurse midwife, cnm, obstetric, pregnant '
 mainClass: blog
 ---
 * In North Carolina, infant mortality rates are higher for non-Hispanic black babies than for non-Hispanic white babies, and this gap has persisted for nearly 20 years. \[1] In 2018, black infants were 2.44 times more likely to die than white infants. \[2, 3] 
