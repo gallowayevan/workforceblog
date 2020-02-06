@@ -12,7 +12,7 @@ teaserImage: /images/posts/ObsProvidersChart5Feb2020.png
 keywords: 'physicians, certified nurse midwife, cnm, obstetric, pregnant '
 mainClass: blog
 ---
-* In North Carolina, infant mortality rates are higher for non-Hispanic black babies than for non-Hispanic white babies, and this gap has persisted for nearly 20 years. \[1] In 2018, black infants were almost two and a half times more likely to die compared to white infants. \[2, 3] 
+* In North Carolina, infant mortality rates are higher for non-Hispanic black babies than for non-Hispanic white babies, and this gap has persisted for nearly 20 years. \[1] In 2018, black infants were almost two and a half times more likely to die than white infants. \[2, 3] 
 * Relative to white patients, black patients report worse communication and lower shared decision-making with physicians. \[4] Racial concordance, when patients and physicians identify as the same race, is associated with better patient-physician communication.
 * In 2018, 21% of NC's population identified as black or African American, compared to 13% of the state's obstetric delivery providers.
 * Only five black family medicine physicians reported providing routine obstetric delivery services in 2018.
