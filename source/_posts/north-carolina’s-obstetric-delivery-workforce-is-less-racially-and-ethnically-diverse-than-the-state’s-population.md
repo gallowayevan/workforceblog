@@ -3,7 +3,7 @@ template: post.html
 title: How diverse is NC's obstetric delivery workforce?
 date: 2020-02-05T20:06:54.349Z
 author: Julie Spero
-hide: true
+hide: false
 permalink: /obstetric_provider_race
 teaserText: How diverse is NC's obstetric delivery workforce?
 teaserImage: /images/posts/Obsproviderspreview11feb.png
