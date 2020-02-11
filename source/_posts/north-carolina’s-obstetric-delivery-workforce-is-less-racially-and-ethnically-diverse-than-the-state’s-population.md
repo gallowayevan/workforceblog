@@ -3,7 +3,7 @@ template: post.html
 title: How diverse is NC's obstetric delivery workforce?
 date: 2020-02-05T20:06:54.349Z
 author: Julie Spero
-hide: false
+hide: true
 permalink: /obstetric_provider_race
 teaserText: How diverse is NC's obstetric delivery workforce?
 teaserImage: /images/posts/Obsproviderspreview11feb.png
@@ -16,7 +16,7 @@ mainClass: blog
 * In North Carolina, infant mortality rates are higher for non-Hispanic black babies than for non-Hispanic white babies, and this gap has persisted for nearly 20 years. \[1] In 2018, black infants were almost two and a half times more likely to die than white infants. \[2, 3]
 * Relative to white patients, black patients report worse communication and lower shared decision-making with physicians. \[4] Racial concordance, when patients and physicians identify as the same race, is associated with better patient-physician communication.  Training can help improve communication between non-racially concordant providers and patients.
 
-![](/images/posts/ObsProvidersCharts11Feb2020small.png)
+![](/images/posts/Obsprovidercharts11preview.png)
 
 \[1] Di Bona, V. Jones-Vessey K, Cobb SM. Running the numbers: disparities in infant mortality: examining perinatal periods of risk.NCMJ 2020; 81: 70-74.
 
