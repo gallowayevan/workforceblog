@@ -93,16 +93,16 @@ posts.forEach(function (post) {
     // modified date if there is one. If there is no thumbnail or if the thumbnail's modified
     // date is earlier than the teaserImage's, then create a new thumbmail
     const unprocessedImageStats = fs.statSync(source + post.teaserImage);
-    fs.stat(source + "/images/thumbnails/" + filename, function (err, processedImageStats) {
-      if (err || unprocessedImageStats.mtimeMs > processedImageStats.mtimeMs) {
-        sharp(source + post.teaserImage).resize(300).toFile(source + "/images/thumbnails/" + filename)
-          .then(() => {
-            fs.copyFile(source + "/images/thumbnails/" + filename, public + "/images/thumbnails/" + filename, (err) => { if (err) throw err; });
-          })
-      } else {
-        // console.log(post.title + " already has a thumbnail.")
-      }
-    })
+    const processedImageStats = fs.statSync(source + "/images/thumbnails/" + filename);
+
+    if (unprocessedImageStats.mtimeMs > processedImageStats.mtimeMs) {
+      sharp(source + post.teaserImage).resize(300).toFile(source + "/images/thumbnails/" + filename)
+        .then(() => {
+          fs.copyFile(source + "/images/thumbnails/" + filename, public + "/images/thumbnails/" + filename, (err) => { if (err) throw err; });
+        })
+    } else {
+      // console.log(post.title + " already has a thumbnail.")
+    }
   } else {
     // console.log(post.title + " is missing teaserImage.")
   }
