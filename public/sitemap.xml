@@ -75,6 +75,12 @@
 		
 		<url>
 			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu/infectious_disease_md</loc>
+			<lastmod>Wed Mar 04 2020 19:00:00 GMT-0500 (Eastern Standard Time)</lastmod>
+		</url>
+		
+		<url>
+			<priority>0.5</priority>
 			<loc>https://nchealthworkforce.unc.edu/licensing-boards</loc>
 			<lastmod>Sun May 05 2019 20:00:00 GMT-0400 (Eastern Daylight Time)</lastmod>
 		</url>
