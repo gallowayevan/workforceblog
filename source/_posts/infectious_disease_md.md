@@ -19,9 +19,12 @@ mainClass: content
 *  In 2018, 211 NC physicians reported that infectious disease was their primary area of practice.  Many are associated with academic health centers and may do research or work in public health in addition to seeing patients.
 *  For more information on the epidemic in NC, please see the [NC's Department of Health and Human Services coronavirus website](https://www.ncdhhs.gov/divisions/public-health/coronavirus-disease-2019-covid-19-response-north-carolina).
 
+<h5>Physicians with a Primary Area of Practice of Infectious Disease, North Carolina, 2018</h5>
 <div id="map" style="height:400px;max-width:800px;margin:auto;"></div>
 
  <script src='/javascript/mapbox-gl.js'></script>
+
+ <p style="font-size:1rem;margin-top:10px;">Notes: Data include active, licensed physicians in practice in North Carolina as of October 31, 2018 who are not residents-in-training and are not employed by the Federal government. Physician data are derived from the North Carolina Medical Board. County estimates are based on primary practice location. Population census data and estimates are downloaded from the North Carolina Office of State Budget and Management via NC LINC and are based on US Census data.</p>
 
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ2FsbG93YXlldmFuIiwiYSI6ImNqanJlendzeTJ2MGIza3M0bzdzaGx5ZW8ifQ.Baz1Ju09q2mNHqw1gUbbSQ';
