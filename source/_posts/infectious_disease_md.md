@@ -14,15 +14,15 @@ mainClass: content
 ---
 * The first case of coronavirus (COVID-19) has been [documented in NC](https://www.newsobserver.com/news/local/article240750876.html).  The spread has sparked concerns about public health infrastructure. Adults aged 65 and older are especially vulnerable to coronaviruses and the subsequent respiratory infections they can cause. 
 
-  During an epidemic like this one, primary care is the entry point to testing and to referral if more intensive and specialized care is necessary.
+*  During an epidemic like this one, primary care is the entry point to testing and to referral if more intensive and specialized care is necessary.
 
-  In North Carolina, [primary care clinicians are unevenly distributed](https://nchealthworkforce.unc.edu/physician_growth_metro/), with access worsening in rural areas.  The populations of [rural communities are older](https://nchealthworkforce.unc.edu/percent_65_and_older_map/) than those in urban areas.  Local primary care clinicians are a critical first access point for patients with COVID-19 symptoms.  
+* In North Carolina, [primary care clinicians are unevenly distributed](https://nchealthworkforce.unc.edu/physician_growth_metro/), with access worsening in rural areas.  The populations of [rural communities are older](https://nchealthworkforce.unc.edu/percent_65_and_older_map/) than those in urban areas.  Local primary care clinicians are a critical first access point for patients with COVID-19 symptoms.  
 
-  Infectious disease (ID) physicians will also play a role in managing NC’s response to COVID-19.  ID physicians diagnose and treat infectious diseases, consult with other physicians, and develop prevention strategies to reduce transmission.
+*  Infectious disease (ID) physicians will also play a role in managing NC’s response to COVID-19.  ID physicians diagnose and treat infectious diseases, consult with other physicians, and develop prevention strategies to reduce transmission.
 
-  In 2018, 211 NC physicians reported that infectious disease was their primary area of practice.  Many are associated with academic health centers and may do research or work in public health in addition to seeing patients.
+*  In 2018, 211 NC physicians reported that infectious disease was their primary area of practice.  Many are associated with academic health centers and may do research or work in public health in addition to seeing patients.
 
-  For more information on the epidemic in NC, please see the [NC's Department of Health and Human Services coronavirus website](https://www.ncdhhs.gov/divisions/public-health/coronavirus-disease-2019-covid-19-response-north-carolina).
+*  For more information on the epidemic in NC, please see the [NC's Department of Health and Human Services coronavirus website](https://www.ncdhhs.gov/divisions/public-health/coronavirus-disease-2019-covid-19-response-north-carolina).
 
 <div id="map" style="height:400px;max-width:800px;margin:auto;"></div>
 
