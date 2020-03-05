@@ -1,22 +1,25 @@
 ---
 template: post.html
 title: COVID-19
-date: 2020-03-05
+date: 2020-03-05T00:00:00.000Z
 author: 'Julie Spero, Heather Wilson, Evan Galloway'
 hide: true
 permalink: /infectious_disease_md
 teaserText: COVID-19
 teaserImage: /images/posts/md_id_map_sample.png
-keywords: physician, covid-19, coronavirus, infectious disease
+keywords: 'physician, covid-19, coronavirus, infectious disease'
+additionalStyleSheets:
+  - mapbox-gl.css
 mainClass: content
-additionalStyleSheets: ['mapbox-gl.css']
 ---
+* Here is point number 1.
+
 
 
 <div id="map" style="height:400px;max-width:800px;margin:auto;"></div>
 
-
  <script src='/javascript/mapbox-gl.js'></script>
+
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ2FsbG93YXlldmFuIiwiYSI6ImNqanJlendzeTJ2MGIza3M0bzdzaGx5ZW8ifQ.Baz1Ju09q2mNHqw1gUbbSQ';
 var map = new mapboxgl.Map({
