@@ -60,32 +60,42 @@ paint: {
 //   * Blue, 20px circles when point count is less than 100
 //   * Yellow, 30px circles when point count is between 100 and 750
 //   * Pink, 40px circles when point count is greater than or equal to 750
+// 'circle-color': [
+// 'step',
+// ['get', 'point_count'],
+// '#dadaeb',
+// 20,
+// '#bcbddc',
+// 40,
+// '#9e9ac8',
+// 60,
+// '#807dba',
+// 80,
+// '#6a51a3',
+// 100,
+// '#4a1486',
+// ],
 'circle-color': [
-'step',
-['get', 'point_count'],
-'#dadaeb',
-20,
-'#bcbddc',
-40,
-'#9e9ac8',
-60,
-'#807dba',
-80,
-'#6a51a3',
-100,
-'#4a1486',
+"interpolate-hcl",
+ ["linear"],   
+  ['get', 'point_count'],
+  0, "HSL(240, 30%, 89%)",
+  82, "HSL(258, 34%, 48%)"
 ],
-'circle-radius': [
-'step',
-['get', 'point_count'],
-20,
-100,
-30,
-750,
-40
+"circle-radius": [
+  "sqrt", ["*", ["get", "point_count"], 32]    
 ]
-}
-});
+// 'circle-radius': [
+// 'step',
+// ['get', 'point_count'],
+// 20,
+// 100,
+// 30,
+// 750,
+// 40 
+// ]
+}  
+}); 
  
 map.addLayer({
 id: 'cluster-count',

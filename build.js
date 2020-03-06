@@ -1,3 +1,8 @@
+//Derived from https://roadtolarissa.com/literate-blogging/
+//https://github.com/1wheel/roadtolarissa/tree/master/source/literate-blogging
+//Copyright © 2012-2018 Adam Pearce
+//MIT License - https://github.com/1wheel/roadtolarissa/blob/master/License
+
 var fs = require('fs')
 var path = require('path');
 const yaml = require('js-yaml');
@@ -165,6 +170,7 @@ const liveSearchIndex = JSON.parse(searchIndex).map(function (d) {
 const defaultResults = 36;
 const resultsSorted = liveSearchIndex.sort(function (a, b) { return b.date - a.date }).slice(0, defaultResults);
 const searchResultsFormatted = resultsSorted.map(thumbnailTemplate).join('');
+
 fs.writeFileSync(`${public}/index.html`, indexTemplate(searchResultsFormatted))
 
 function thumbnailTemplate(d) {
