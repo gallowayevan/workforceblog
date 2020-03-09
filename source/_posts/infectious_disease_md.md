@@ -24,7 +24,7 @@ mainClass: content
 
  <script src='/javascript/mapbox-gl.js'></script>
 
- <p style="font-size:1rem;margin-top:10px;">Notes: Data include active, licensed physicians in practice in North Carolina as of October 31, 2018 who are not residents-in-training and are not employed by the Federal government. Physician data are derived from the North Carolina Medical Board. County estimates are based on primary practice location. Population census data and estimates are downloaded from the North Carolina Office of State Budget and Management via NC LINC and are based on US Census data.</p>
+ <p style="font-size:1rem;margin-top:10px;">Notes: Data include active, licensed physicians in practice in North Carolina as of October 31, 2018 who are not residents-in-training and are not employed by the Federal government. Physician data are derived from the North Carolina Medical Board. Map depicts self-reported physician primary practice location.</p>
 
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ2FsbG93YXlldmFuIiwiYSI6ImNqanJlendzeTJ2MGIza3M0bzdzaGx5ZW8ifQ.Baz1Ju09q2mNHqw1gUbbSQ';
