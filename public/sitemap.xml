@@ -165,6 +165,12 @@
 		
 		<url>
 			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu/primary_care_nc</loc>
+			<lastmod>Tue Mar 24 2020 15:24:12 GMT-0400 (Eastern Daylight Time)</lastmod>
+		</url>
+		
+		<url>
+			<priority>0.5</priority>
 			<loc>https://nchealthworkforce.unc.edu/psychologists_by_age_sex</loc>
 			<lastmod>Mon Feb 25 2019 19:00:00 GMT-0500 (Eastern Standard Time)</lastmod>
 		</url>

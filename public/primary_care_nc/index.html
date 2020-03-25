@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="utf-8">
-  <title>NC Health Workforce - COVID-19, Primary Care, and Infectious Disease Physicians in NC</title>
+  <title>NC Health Workforce - Primary Care Access in North Carolina is Not Equally Distributed </title>
   <meta name="description" content="North Carolina Health Professions Data System">
   <meta name="author" content="Sheps Center">
 
@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="../css/skeleton-no-grid.css" type="text/css">
   <link rel="stylesheet" href="../css/main.css" type="text/css">
 
-  <link rel='stylesheet' href='../css/mapbox-gl.css' type='text/css'>
+  
   <style>undefined</style>
 </head>
 
@@ -43,124 +43,22 @@
                  </div>
    </nav>
  </div>
-  <div class="content">
-    <div class="title"><h5>COVID-19, Primary Care, and Infectious Disease Physicians in NC</h5></div>
+  <div class="blog">
+    <div class="title"><h5>Primary Care Access in North Carolina is Not Equally Distributed </h5></div>
   
     <ul>
-<li>The first cases of coronavirus (COVID-19) have been <a href="https://www.newsobserver.com/news/local/article241051656.html">documented in NC</a>.  The spread has sparked concerns about public health infrastructure. Adults aged 65 and older are especially vulnerable to coronaviruses and the subsequent respiratory infections they can cause. </li>
-<li>During an epidemic like this one, primary care is the entry point to testing and to referral if more intensive and specialized care is necessary.</li>
-<li>In North Carolina, <a href="https://nchealthworkforce.unc.edu/physician_growth_metro/">primary care clinicians are unevenly distributed</a>, with access worsening in rural areas.  The populations of <a href="https://nchealthworkforce.unc.edu/percent_65_and_older_map/">rural communities are older</a> than those in urban areas.    </li>
-<li>Infectious disease (ID) physicians will also play a role in managing NC’s response to COVID-19.  ID physicians diagnose and treat infectious diseases, consult with other physicians, and develop prevention strategies to reduce transmission.</li>
-<li>In 2018, 211 NC physicians reported that infectious disease was their primary area of practice.  Many are associated with academic health centers and may do research or work in public health in addition to seeing patients.</li>
-<li>For more information on the epidemic in NC, please see the <a href="https://www.ncdhhs.gov/divisions/public-health/coronavirus-disease-2019-covid-19-response-north-carolina">NC’s Department of Health and Human Services coronavirus website</a>.</li>
+<li>Primary care practitioners per capita is one of the  NC Institute of Medicine’s (NCIOM) 21 health indicators for the <a href="http://nciom.org/healthy-north-carolina-2030/">Healthy NC 2030</a> project. </li>
+<li>Access to primary care is necessary to improving the health outcomes of communities. With the recent spread of the novel <a href="https://www.newsobserver.com/news/coronavirus/article241238276.html">coronavirus</a> in North Carolina, primary care is critical as an entry-point to further care. </li>
+<li>Many rural areas of North Carolina lack adequate access to primary care providers. The disparities in access between rural and metropolitan areas have continued to grow despite an overall increase of physicians in NC, as <a href="https://nchealthworkforce.unc.edu/physician_growth_metro/">our previous blog</a> reported. </li>
+<li>On the map below, green indicates the county is meeting NCIOM’s target ratio of 1 primary care provider to every 1,500 people. Currently, <strong>60% of NC’s 100 counties meet the NCIOM’s target</strong>. Seven counties were substantially below target: Anson, Northampton, Franklin, Warren, Gates, Tyrrell and Camden. Camden has a population of just over 10,000, and no primary care providers. </li>
+<li><p>Our definition of primary care clinician includes physicians, nurse practitioners (NPs), physician assistants (PAs) and certified nurse midwives (CNMs). </p>
+<p><a href="/images/posts/nc_primarycare_map.png"> <img src="/images/posts/nc_primarycare_map.png" alt=""></a></p>
+</li>
 </ul>
-<p><h5>Physicians with a Primary Area of Practice of Infectious Disease, North Carolina, 2018</h5></p>
-<div id="map" style="height:400px;max-width:800px;margin:auto;"></div>
+<p><a href=""> <img src="" alt=""></a></p>
 
- <script src='/javascript/mapbox-gl.js'></script>
-
- <p style="font-size:1rem;margin-top:10px;">Notes: Data include active, licensed physicians in practice in North Carolina as of October 31, 2018 who are not residents-in-training and are not employed by the Federal government. Physician data are derived from the North Carolina Medical Board. Map depicts self-reported physician primary practice location.</p>
-
-<script>
-mapboxgl.accessToken = 'pk.eyJ1IjoiZ2FsbG93YXlldmFuIiwiYSI6ImNqanJlendzeTJ2MGIza3M0bzdzaGx5ZW8ifQ.Baz1Ju09q2mNHqw1gUbbSQ';
-var map = new mapboxgl.Map({
-container: 'map',
-style: 'mapbox://styles/mapbox/light-v10',
-center: [-80.1, 35.4],
-minZoom: 6, 
-zoom: 6,
-maxZoom: 10
-});
-map.on('load', function() {
-// Add a new source from our GeoJSON data and
-// set the 'cluster' option to true. GL-JS will
-// add the point_count property to your source data.
-map.addSource('id_md', {
-type: 'geojson',
-data:
-'/data/infectious_disease_md_points.json',
-cluster: true,
-clusterMaxZoom: 14, // Max zoom to cluster points on
-clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
-});
-
-map.addLayer({
-id: 'clusters',
-type: 'circle',
-source: 'id_md',
-filter: ['has', 'point_count'],
-paint: {
-// Use step expressions (https://docs.mapbox.com/mapbox-gl-js/style-spec/#expressions-step)
-// with three steps to implement three types of circles:
-//   * Blue, 20px circles when point count is less than 100
-//   * Yellow, 30px circles when point count is between 100 and 750
-//   * Pink, 40px circles when point count is greater than or equal to 750
-// 'circle-color': [
-// 'step',
-// ['get', 'point_count'],
-// '#dadaeb',
-// 20,
-// '#bcbddc',
-// 40,
-// '#9e9ac8',
-// 60,
-// '#807dba',
-// 80,
-// '#6a51a3',
-// 100,
-// '#4a1486',
-// ],
-'circle-color': [
-"interpolate-hcl",
- ["linear"],   
-  ['get', 'point_count'],
-  0, "HSL(240, 30%, 89%)",
-  82, "HSL(258, 34%, 48%)"
-],
-"circle-radius": [
-  "sqrt", ["*", ["get", "point_count"], 32]    
-]
-// 'circle-radius': [
-// 'step',
-// ['get', 'point_count'],
-// 20,
-// 100,
-// 30,
-// 750,
-// 40 
-// ]
-}  
-}); 
-
-map.addLayer({
-id: 'cluster-count',
-type: 'symbol',
-source: 'id_md',
-filter: ['has', 'point_count'],
-layout: {
-'text-field': '{point_count_abbreviated}',
-'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
-'text-size': 12
-}
-});
-
-map.addLayer({
-id: 'unclustered-point',
-type: 'circle',
-source: 'id_md',
-filter: ['!', ['has', 'point_count']],
-paint: {
-'circle-color': '#dadaeb',
-'circle-radius': 4,
-'circle-stroke-width': 1,
-'circle-stroke-color': '#4a1486'
-}
-});
-
-});
-</script>
     
-     
+    <p class="byline">By Evan Galloway, Julie Spero and Heather Wilson | Tue Mar 24 2020</p> 
   </div>
 
 

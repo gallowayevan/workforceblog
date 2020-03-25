@@ -86,7 +86,7 @@ function parsePost(path) {
 //Create thumbnails
 const sharp = require('sharp');
 
-posts.forEach(function (post) {
+posts.forEach(async function (post) {
   if (post.hasOwnProperty('teaserImage')) {
     //Make new filename with jpg
     const filename = path.parse(post.teaserImage).base.slice(0, -3) + "jpg";
@@ -98,10 +98,30 @@ posts.forEach(function (post) {
     // modified date if there is one. If there is no thumbnail or if the thumbnail's modified
     // date is earlier than the teaserImage's, then create a new thumbmail
     const unprocessedImageStats = fs.statSync(source + post.teaserImage);
-    const processedImageStats = fs.statSync(source + "/images/thumbnails/" + filename);
+
+    //Need to account for error if file does not exist. Can do async or sync version3
+    let processedImageStats = {};
+    // try {
+    //   await fs.stat(source + "/images/thumbnails/" + filename, function (err, resp) {
+    //     if (err) throw new Error(err);
+    //     processedImageStats = resp;
+    //   });
+    // } catch (e) {
+    //   console.error(e);
+    // } finally {
+    //   processedImageStats.mtimeMs = 0;
+    // }
+
+    try {
+      processedImageStats = fs.statSync(source + "/images/thumbnails/" + filename);
+    } catch (e) {
+      console.error(e);
+    } finally {
+      processedImageStats.mtimeMs = 0;
+    }
 
     if (unprocessedImageStats.mtimeMs > processedImageStats.mtimeMs) {
-      sharp(source + post.teaserImage).resize(300).toFile(source + "/images/thumbnails/" + filename)
+      await sharp(source + post.teaserImage).resize(500, 500, { fit: "outside" }).toFile(source + "/images/thumbnails/" + filename)
         .then(() => {
           fs.copyFile(source + "/images/thumbnails/" + filename, public + "/images/thumbnails/" + filename, (err) => { if (err) throw err; });
         })
