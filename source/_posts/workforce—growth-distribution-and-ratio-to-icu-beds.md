@@ -6,7 +6,7 @@ title: >-
 date: 2020-03-25T18:05:29.619Z
 author: 'Evan Galloway, Julie Spero, Heather Wilson'
 hide: true
-permalink: respiratory_therapist_NC
+permalink: /respiratory_therapist_NC
 teaserText: ' North Carolina’s Respiratory Therapist Workforce—growth, distribution and ratio to ICU beds  '
 teaserImage: /images/posts/rt_icumap_2019crop.png
 keywords: respiratory therapist; RT; Covid-19; coronavirus
