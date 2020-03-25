@@ -1,6 +1,8 @@
 ---
 template: post.html
-title: ' Workforce—growth, distribution and ratio to ICU beds  '
+title: >-
+  North Carolina's Respiratory Therapist Workforce—Growth, Distribution and
+  Ratio to ICU Beds  
 date: 2020-03-25T18:05:29.619Z
 author: 'Evan Galloway, Julie Spero, Heather Wilson'
 hide: true
