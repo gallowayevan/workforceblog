@@ -122,9 +122,8 @@ posts.forEach(async function (post) {
 
     if (unprocessedImageStats.mtimeMs > processedImageStats.mtimeMs) {
       await sharp(source + post.teaserImage).resize(500, 500, { fit: "outside" }).toFile(source + "/images/thumbnails/" + filename)
-        .then(() => {
-          fs.copyFile(source + "/images/thumbnails/" + filename, public + "/images/thumbnails/" + filename, (err) => { if (err) throw err; });
-        })
+      await fs.copyFile(source + "/images/thumbnails/" + filename, public + "/images/thumbnails/" + filename, (err) => { if (err) throw err; });
+
     } else {
       // console.log(post.title + " already has a thumbnail.")
     }
