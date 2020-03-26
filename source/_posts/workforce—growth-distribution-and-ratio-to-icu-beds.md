@@ -19,7 +19,7 @@ mainClass: blog
 
 ![](/images/posts/rt_map_2019_histo.png)
 
-* Since 2004, the gap between metropolitan and nonmetropolitan (rural) rates of RTs per 10,000 population has continued to grow; in 2019, the metro rate was 22% higher than the nonmetro rate.
+<ul><li>Since 2004, the gap between metropolitan and nonmetropolitan (rural) rates of RTs per 10,000 population has continued to grow; in 2019, the metro rate was 22% higher than the nonmetro rate.</li></ul>
 
   ![A graph of Respiratory Therapists per 10,000 Population by Metro or Nonmetro (Rural), North Carolina, 2004 - 2019](/images/posts/rt_metro_2019.png "A graph of Respiratory Therapists per 10,000 Population by Metro or Nonmetro (Rural), North Carolina, 2004 - 2019")
 
