@@ -23,6 +23,6 @@ mainClass: blog
 
   ![A graph of Respiratory Therapists per 10,000 Population by Metro or Nonmetro (Rural), North Carolina, 2004 - 2019](/images/posts/rt_metro_2019.png "A graph of Respiratory Therapists per 10,000 Population by Metro or Nonmetro (Rural), North Carolina, 2004 - 2019")
 
-* Below, we mapped RTs per Intensive Care Unit (ICU) bed in North Carolina. Our definition of ICU beds includes coronary care unit and surgical ICU beds. While the total number of RTs in NC has been fairly stable for many years, hospitals and health systems may add additional ICU beds to increase patient capacity during the coronavirus epidemic. If so, the ratio of RTs to ICU beds in each county will change.
+<ul><li>Below, we mapped RTs per Intensive Care Unit (ICU) bed in North Carolina. Our definition of ICU beds includes coronary care unit and surgical ICU beds. While the total number of RTs in NC has been fairly stable for many years, hospitals and health systems may add additional ICU beds to increase patient capacity during the coronavirus epidemic. If so, the ratio of RTs to ICU beds in each county will change.</li></ul>
 
   ![Map of Respiratory Therapists per Intensive Care Unit (ICU) Bed, North Carolina, 2019](/images/posts/rt_icumap_2019.png "Respiratory Therapists per Intensive Care Unit (ICU) Bed, North Carolina, 2019")
