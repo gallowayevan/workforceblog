@@ -16,6 +16,6 @@ mainClass: blog
 * On the map below, green indicates the county is meeting NCIOM’s target ratio of 1 primary care provider to every 1,500 people. Currently, **60% of NC’s 100 counties meet the NCIOM’s target**. Seven counties were substantially below target: Anson, Northampton, Franklin, Warren, Gates, Tyrrell and Camden. Camden has a population of just over 10,000, and no primary care providers. 
 * Our definition of primary care clinician includes physicians, nurse practitioners (NPs), physician assistants (PAs) and certified nurse midwives (CNMs). 
 
+
   ![](/images/posts/nc_primarycare_map.png)
 
-![]()
