@@ -4,7 +4,7 @@ title: 'Does NC have the critical care nursing workforce needed to combat COVID-
 date: 2020-04-01T13:12:04.301Z
 author: 'Erin Fraher, Allie Tran, Evan Galloway, Julie Spero, Heather Wilson'
 hide: true
-permalink: ICU_nursing_covid
+permalink: /ICU_nursing_covid
 teaserText: 'Does NC have the critical care nursing workforce needed to combat COVID-19? '
 teaserImage: /images/posts/artboard-1-4x.png
 keywords: nursing; COVID-19
