@@ -5,7 +5,7 @@ title: >-
   COVID-19
 date: 2020-03-25T18:05:29.619Z
 author: 'Erin Fraher, Evan Galloway, Julie Spero, Heather Wilson'
-hide: true
+hide: false
 permalink: /respiratory_therapist_NC
 teaserText: >-
   North Carolina’s Respiratory Therapist Workforce: Availability to treat
@@ -14,7 +14,7 @@ teaserImage: /images/posts/rt_10k2020.png
 keywords: respiratory therapist; RT; Covid-19; coronavirus
 mainClass: blog
 ---
-As North Carolina prepares for a rising number of COVID-19 cases requiring hospitalization, [@WorkforceNC](https://twitter.com/WorkforceNC) is committed to providing data on the availability of critically needed health professionals.  Health systems in North Carolina are acting quickly to boost the numbers of health care professionals, ICU beds, and equipment. This blog post represents the best available data as of April 3rd, 2020. 
+As North Carolina prepares for a rising number of COVID-19 cases requiring hospitalization, [@WorkforceNC](https://twitter.com/WorkforceNC) is committed to providing data on the availability of critically needed health professionals, such as [critical care nurses](https://nchealthworkforce.unc.edu/icu_nursing_covid/) and [infectious disease specialists.](https://nchealthworkforce.unc.edu/infectious_disease_md/) Health systems in North Carolina are acting quickly to boost the numbers of health care professionals, ICU beds, and equipment. This blog post represents the best available data as of April 3rd, 2020. 
 
 [NPR recently reported](https://www.npr.org/2020/03/19/818192507/are-there-enough-skilled-medical-workers-to-run-ventilators) that 2% of those who contract the coronavirus develop respiratory issues that require a ventilator.  In addition to concerns about a [shortage](https://www.newsobserver.com/news/nation-world/national/article241577996.html) of[ ventilators](https://www.newsobserver.com/news/coronavirus/article241667901.html), North Carolina needs the skilled medical workforce required to staff ventilators.   Respiratory therapists (RTs) are associate-degree-educated health professionals who care for patients that have trouble breathing, including operating and managing ventilators.  While many work in hospital intensive care units (ICUs) about 15% of NC’s RTs work in other settings, like home health and nursing homes.
 
