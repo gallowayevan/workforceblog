@@ -2,7 +2,7 @@
 template: post.html
 title: Distribution of critical care physician workforce in North Carolina
 date: 2020-05-21T19:35:59.005Z
-author: Heather Wilson, Julie Spero, Dan Jonas, Erin Fraher
+author: Evan Galloway, Heather Wilson, Julie Spero, Dan Jonas, Erin Fraher
 hide: false
 permalink: /critical_care_medicine_covid
 teaserText: Distribution of critical care physician workforce in North Carolina
@@ -16,7 +16,7 @@ While North Carolina’s early social distancing and stay-in-place measures have
 
 Even before the pressures of a pandemic, [studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4396890/) reported a shortage of critical care physicians. COVID-19 has the potential to significantly increase the demand on ICUs and the physicians who staff them. COVID-19 patients have an [average](https://data.oecd.org/healthcare/length-of-hospital-stay.htm) length of stay of 8-12 days in the hospital, longer than the average stay of 5 days. With a properly staffed team of NPs, PAs, CNs and CRNAs, an intensivist can generally manage 6 patients each—in a[ surge](https://healthforce.ucsf.edu/file/staffing-plans-surge-hospitals-public-apr-7-updatexlsx), this ratio can flex to 1:8. The Society of Critical Care Medicine (SCCM) has recommended hospitals adopt a [tiered staffing model](https://www.healthleadersmedia.com/clinical-care/coronavirus-tiered-staffing-recommended-bolster-critical-care) in which one experienced critical care physician supervises four ICU teams, better utilizing providers with less ICU training. In hospitals with an “[open unit](https://link.springer.com/article/10.1007/s40140-013-0010-0),” hospitalists often already help cover ICU and step-down patients. Similarly, family medicine and internal medicine doctors, especially those who were recently residents, can flex up to do hospitalist work. Individual hospitals and health care systems should [plan for increased resource use](https://www.healthaffairs.org/do/10.1377/hblog20200414.197056/full/) given their unique staffing configuration.   
 
-The map below shows the supply of critical care medicine physicians relative to population by Tertiary Service Areas (TSAs). TSAs are groups of counties that reflect where patients might be sent for specialty care.\[1] TSA #3, which contains the cities of Chapel Hill and Durham, had the highest proportion of critical care physicians, at 3.9 per 100K population. TSA #4, which contains the city of Winston-Salem, also had a higher ratio, at 3.2 per 100K population. TSA #7, which contains the city of Ashville, had the lowest ratio, at .9 per 100K population.  
+The map below shows the supply of critical care medicine physicians relative to population by Tertiary Service Areas (TSAs). TSAs are groups of counties that reflect where patients might be sent for specialty care.\[1] TSA #3, which contains the cities of Chapel Hill and Durham, had the highest proportion of critical care physicians, at 3.9 per 100K population. TSA #4, which contains the city of Winston-Salem, also had a higher ratio, at 3.2 per 100K population. TSA #7, which contains the city of Asheville, had the lowest ratio, at .9 per 100K population.  
 
 ![Map of Critical Care Medicine physicians in North Carolina by TSA ](/images/posts/critcaremedicine_2018.png "Map of Critical Care Medicine physicians in North Carolina by TSA")
 
