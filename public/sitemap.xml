@@ -33,8 +33,20 @@
 		
 		<url>
 			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu/critical_care_medicine_covid</loc>
+			<lastmod>Thu May 21 2020 15:35:59 GMT-0400 (Eastern Daylight Time)</lastmod>
+		</url>
+		
+		<url>
+			<priority>0.5</priority>
 			<loc>https://nchealthworkforce.unc.edu/psychiatry_fte_2017</loc>
 			<lastmod>Wed Mar 06 2019 14:41:33 GMT-0500 (Eastern Standard Time)</lastmod>
+		</url>
+		
+		<url>
+			<priority>0.5</priority>
+			<loc>https://nchealthworkforce.unc.edu/ICU_nursing_covid</loc>
+			<lastmod>Wed Apr 01 2020 09:12:04 GMT-0400 (Eastern Daylight Time)</lastmod>
 		</url>
 		
 		<url>
